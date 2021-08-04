@@ -1,0 +1,20 @@
+visual encodings
+Protovis
+index chart
+small multiples
+horizon graph
+exploratory data analysis
+stem-and-leaf plot
+quantile-quantile
+scatter plot matrix
+brushing-and-linking
+Parallel coordinates
+flow map
+choropleth map
+graduated symbol map
+Cartograms
+Dorling cartogram
+k-means clustering
+dendrogram
+Adjacency diagrams
+Enclosure diagrams

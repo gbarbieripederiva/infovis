@@ -1,0 +1,1022 @@
+[
+	{
+		"nombreOriginal":"psycho-pass",
+		"nombreAlternativo":"psycho-pass",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos": 22,"capitulosVistos": 22,"duracion":},
+			{"nombre":"temporada 2","capitulos":22,"vistos":0}
+		],
+		"generos":["Action", "Sci-Fi", "Police", "Psychological", "Thriller"]
+	},{
+		"nombreOriginal":"Tate no Yuusha no Nariagari",
+		"nombreAlternativo":"The rising of the shield hero",
+		"temporadas":[
+			{
+				"nombre":"temporada 1",
+				"capitulos":25,
+				"capitulosVistos":25
+			}
+		],
+		"generos":["Action", "Adventure", "Drama", "Fantasy"]
+	},{
+		 "nombreOriginal":"Kimetsu no Yaiba",
+		"nombreAlternativo":"Demon slayer",
+		"temporadas":[
+			{
+				"nombre":"temporada 1",
+				"capitulos":26,
+				"capitulosVistos":26
+			}
+		],
+		"generos":["Action", "Demons", "Historical", "Shounen", "Supernatural"]
+	},{
+		"nombreOriginal":"Sword art online",
+		"nombreAlternativo":"SAO",
+		"temporadas":[
+			{"nombre":"terminado 1","capitulos":25,"capitulosVistos":25},
+			{"nombre":"II","capitulos":24,"capitulosVistos":24},
+			{"nombre":"Alternative Gun Gale Online","capitulos":12,"capitulosVistos":1},
+			{"nombre":"alicization temporada 1","capitulos":24,"capitulosVistos":24},
+			{"nombre":"alicization temporada 2","capitulos":23,"capitulosVistos":23}
+		],
+		"generos":["Action", "Game", "Adventure", "Romance", "Fantasy"]
+	},{
+			"nombreOriginal":"Accel world",
+			"nombreAlternativo":"Accel world",
+			"temporadas":[
+				{"nombre":"temporada 1","capitulos":24,"capitulosVistos":24},
+				{"nombre":"OVAs","capitulos":2,"capitulosVistos":2},
+				{"nombre":"infinite burst(pelicula)","capitulos":1,"capitulosVistos":0}
+			],
+			"generos":["Action", "Game", "Sci-Fi", "Romance", "School"]
+
+	},{
+		"nombreOriginal":"Naruto",
+		"nombreAlternativo":"",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":220,"capitulosVistos":220},
+			{"nombre":"shippuden","capitulos":500,"capitulosVistos":500},
+			{"nombre":"the last movie","capitulos":1,"capitulosVistos":1},
+			{"nombre":"boruto:naruto next generation","capitulos":212,"capitulosVistos":212}
+		],
+		"generos":["Action", "Adventure", "Comedy", "Super Power", "Martial Arts", "Shounen"]
+	},{
+		"nombreOriginal":"jujutsu kaisen",
+		"nombreAlternativo":"",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":24,"capitulosVistos":24,"duracion":23}
+		],
+		"generos":["Action", "Demons", "Supernatural", "School", "Shounen"]
+	},{
+		"nombreOriginal":"JoJo no Kimyou na Bouken",
+		"nombreAlternativo":"Jojo's bizarre adventure",
+		"temporadas":[
+			{"nombre":"Part 1: Phantom Blood","capitulos":9,"capitulosVistos":9 },
+			{"nombre":"Part 2: Battle Tendency","capitulos":17,"capitulosVistos":4 },
+			{"nombre":"Part 3: Stardust Crusaders","capitulos":48,"capitulosVistos":0 },
+			{"nombre":"Part 4: Diamond is Unbreakable","capitulos":39,"capitulosVistos":0 },
+			{"nombre":"Part 5: Golden Wind","capitulos":39,"capitulosVistos":0}
+		],
+		"generos":["Action", "Adventure", "Supernatural", "Vampire","Comedy", "Drama", "Shounen"]
+	},{
+		"nombreOriginal":"The god of highschool",
+		"nombreAlternativo":"The god of highschool",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":13,"capitulosVistos":13}
+		],
+		"generos":["Action", "Sci-Fi", "Adventure", "Comedy", "Supernatural", "Martial Arts", "Fantasy"]
+	},{
+		"nombreOriginal":"Shingeki no kyojin",
+		"nombreAlternativo":"Attack on titans",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":25,"capitulosVistos":25},
+			{"nombre":"temporada 2","capitulos":12,"capitulosVistos":12},
+			{"nombre":"temporada 3","capitulos":12,"capitulosVistos":12},
+			{"nombre":"temporada 3 part 2","capitulos":10,"capitulosVistos":10},
+			{"nombre":"temporada final","capitulos":16,"capitulosVistos":16}
+		],
+		"generos":["Action", "Military", "Mystery", "Super Power", "Drama", "Fantasy", "Shounen"]
+	},{
+		"nombreOriginal":"Great Pretender",
+		"nombreAlternativo":"Great Pretender",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":14,"capitulosVistos":14},
+			{"nombre":"temporada 2","capitulos":9,"capitulosVistos":9}
+		],
+		"generos":["Action", "Adventure", "Mystery", "Comedy", "Psychological"]
+	},{
+		"nombreOriginal":"Boku no hero academia",
+		"nombreAlternativo":"My hero academia",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":13,"capitulosVistos":13},
+			{"nombre":"temporada 2","capitulos":25,"capitulosVistos":25},
+			{"nombre":"temporada 3","capitulos":25,"capitulosVistos":25},
+			{"nombre":"temporada 4","capitulos":25,"capitulosVistos":25},
+			{"nombre":"ova","capitulos":2,"capitulosVistos":2},
+			{"nombre":"temporada 5","capitulos":21,"capitulosVistos":21}
+		],
+		"generos":["Action", "Comedy", "School", "Shounen", "Super Power"]
+	},{
+		"nombreOriginal":"Nanatsu no Taizai",
+		"nombreAlternativo":"The seven deadly sins",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":26,"capitulosVistos":26},
+			{"nombre":"temporada 2","capitulos":24,"capitulosVistos":24},
+			{"nombre":"temporada 3","capitulos":24,"capitulosVistos":24},
+			{"nombre":"temporada 4","capitulos":24,"capitulosVistos":24},
+			// {"nombre":"temporada 5","capitulos":25,"capitulosVistos":25}
+		],
+		"generos":["Action", "Adventure", "Supernatural", "Magic", "Fantasy", "Shounen"]
+	},{
+		"nombreOriginal":"Darling in the FranXX",
+		"nombreAlternativo":"Darling in the FranXX",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":24,"capitulosVistos":24}
+		],
+		"generos":["Action", "Drama", "Mecha", "Romance", "Sci-Fi"]
+	},{
+		"nombreOriginal":"Banana fish",
+		"nombreAlternativo":"Banana fish",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":24,"capitulosVistos":24}
+		],
+		"generos":["Action", "Adventure", "Drama", "Shoujo"]
+	},{
+		"nombreOriginal":"Yakusoku no Neverland",
+		"nombreAlternativo":"The promised neverland",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":12},
+			{"nombre":"temporada 1","capitulos":11,"capitulosVistos":11}
+		],
+		"generos":["Sci-Fi", "Mystery", "Horror", "Psychological", "Thriller", "Shounen"]
+	},{
+		"nombreOriginal":"Kami no Tou",
+		"nombreAlternativo":"Tower of god",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":13,"capitulosVistos":13}
+		],
+		"generos":["Action", "Adventure", "Mystery", "Drama", "Fantasy"]
+	},{
+		"nombreOriginal":"Ansatsu Kyoushitsu",
+		"nombreAlternativo":"Assassination Classroom",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":22,"capitulosVistos":0},
+			{"nombre":"temporada 2","capitulos":25,"capitulosVistos":0}
+		],
+		"generos":["Action", "Comedy", "School", "Shounen"]
+	},{
+		"nombreOriginal":"Koutetsujou no Kabaneri",
+		"nombreAlternativo":"Kabaneri of the Iron Fortress",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":12}
+		],
+		"generos":["Action", "Horror", "Supernatural", "Drama", "Fantasy"]
+	},{
+		"nombreOriginal":"Zankyou no Terror",
+		"nombreAlternativo":"Terror in resonance",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":11,"capitulosVistos":11}
+		],
+		"generos":["Mystery", "Psychological", "Thriller"]
+	},{
+		"nombreOriginal":"joker game",
+		"nombreAlternativo":"",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":4}
+		],
+		"generos":["Military", "Historical", "Drama"]
+	},{
+		"nombreOriginal":"Fate",
+		"nombreAlternativo":"Fate",
+		"temporadas":[
+			{"nombre":"stay night:unlimited bladeworks","capitulos":12,"capitulosVistos":12},
+			{"nombre":"stay night:unlimited bladeworks temporada 2","capitulos":13,"capitulosVistos":13},
+			{"nombre":"stay night","capitulos":24,"capitulosVistos":0},
+			{"nombre":"zero","capitulos":13,"capitulosVistos":11},
+			{"nombre":"zero temporada 2","capitulos":12,"capitulosVistos":0},
+			{"nombre":"apocrypha","capitulos":25,"capitulosVistos":25},
+			{"nombre":"extra last encore","capitulos":10,"capitulosVistos":10},
+		],
+		"generos":["Action", "Supernatural", "Drama", "Magic", "Fantasy", "Romance"]
+	},{
+		"nombreOriginal":"Boku dake ga Inai Machi",
+		"nombreAlternativo":"Erased",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":12}
+		],
+		"generos":["Mystery", "Psychological", "Supernatural", "Seinen"]
+	},{
+		"nombreOriginal":"Angel beats",
+		"nombreAlternativo":"",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":13,"capitulosVistos":13}
+		],
+		"generos":["Action", "Comedy", "Drama", "School", "Supernatural"]
+	},{
+		"nombreOriginal":"castlevania",
+		"nombreAlternativo":"",
+		"temporadas":[
+			temporada 1: terminado (4 capitulos)
+			temporada 2: terminado (8 capitulos)
+			temporada 3: terminado (10 capitulos)
+			temporada 4: terminado (10 capitulos)
+		],
+		"generos":[]
+	},{
+		"nombreOriginal":"Saenai Heroine no Sodatekata",
+		"nombreAlternativo":"How to Raise a Boring Girlfriend",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":12},
+			{"nombre":"temporada 2","capitulos":11,"capitulosVistos":11},
+			{"nombre":"pelicula","capitulos":1,"capitulosVistos":1}
+
+		],
+		"generos":["Harem", "Comedy", "Romance", "Ecchi", "School"]
+	},{
+		"nombreOriginal":"Fullmetal Alchemist",
+		"nombreAlternativo":"Fullmetal Alchemist",
+		"temporadas":[
+			{"nombre":"original","capitulos":22,"capitulosVistos":51},
+			{"nombre":"Brotherhood","capitulos":64,"capitulosVistos":64}
+		],
+		"generos":["Action", "Adventure", "Comedy", "Drama", "Fantasy", "Magic", "Military", "Shounen"]
+		// URLLLLL de aca para arriba
+	},{
+		"nombreOriginal":"Tokyo Ghoul",
+		"nombreAlternativo":"Tokyo Ghoul",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":12,"duracion":24,"url":"https://myanimelist.net/anime/22319/Tokyo_Ghoul"},
+			{"nombre":"√A","capitulos":12,"capitulosVistos":12,"duracion":24,"url":"https://myanimelist.net/anime/27899/Tokyo_Ghoul_%E2%88%9AA"},
+			{"nombre":"jack","capitulos":1,"capitulosVistos":0,"duracion":30,"url":"https://myanimelist.net/anime/30458/Tokyo_Ghoul__Jack"},
+			{"nombre":"pinto","capitulos":1,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/31297/Tokyo_Ghoul__Pinto"},
+			{"nombre":"re:temporada 1","capitulos":12,"capitulosVistos":12,"duracion":24,"url":"https://myanimelist.net/anime/36511/Tokyo_Ghoul_re"},
+			{"nombre":"re:temporada 2","capitulos":12,"capitulosVistos":12,"duracion":24,"url":"https://myanimelist.net/anime/37799/Tokyo_Ghoul_re_2nd_Season"}
+		],
+		"generos":["Action", "Mystery", "Horror", "Psychological", "Supernatural", "Drama", "Seinen","School"]
+	},{
+		"nombreOriginal":"One Punch Man",
+		"nombreAlternativo":"One Punch Man",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":12,"duracion":24,"url":"https://myanimelist.net/anime/30276/One_Punch_Man"},
+			{"nombre":"temporada 2","capitulos":12,"capitulosVistos":12,"duracion":23,"url":"https://myanimelist.net/anime/34134/One_Punch_Man_2nd_Season"}
+		],
+		"generos":["Action", "Sci-Fi", "Comedy", "Parody", "Super Power", "Supernatural"]
+	},{
+		"nombreOriginal":"Taboo Tattoo",
+		"nombreAlternativo":"Taboo Tattoo",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/29758/Taboo_Tattoo"}
+		],
+		"generos":["Action", "Mystery", "Super Power", "Supernatural", "Martial Arts", "Seinen"]
+	},{
+		"nombreOriginal":"D.Gray-man",
+		"nombreAlternativo":"D.Gray-man",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":103,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/1482/DGray-man"},
+			{"nombre":"Hallow","capitulos":12,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/32370/DGray-man_Hallow"}
+		],
+		"generos":["Action", "Adventure", "Comedy", "Super Power", "Demons", "Shounen"]
+	},{
+		"nombreOriginal":"Arslan senki",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+	},{
+		"nombreOriginal":"orange",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+	},{
+		"nombreOriginal":"tales of zestiria the x",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+	},{
+		"nombreOriginal":"la leyenda de korra",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			libro 1:aire: terminado (12 capitulos)
+			libro 2: espiritus:terminado (14 capitulos)
+			libro 3:cambio:terminado (13 capitulos)
+			libro 4:balance:terminado (13 capitulos)
+	},{
+		"nombreOriginal":"steins;gate",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			terminado (24 capitulos)
+			Steins;Gate: Oukoubakko no Poriomania: terminado(1 capitulo)
+			Steins;Gate: Kyoukaimenjou no Missing Link - Divide By Zero: no empece	
+			Steins;Gate Movie: Fuka Ryouiki no Déjà vu: terminado (1 capitulo)
+			steins gate 0: no empece
+	},{
+		"nombreOriginal":"hunter x hunter",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			(1999)terminado (62 capitulos)
+			(2011)terminado (148 capitulos)
+	},{
+		"nombreOriginal":"the prince of tennis",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			termine el 55
+	},{
+		"nombreOriginal":"mirai nikki",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			terminado (26 capitulos)
+			mirai nikki redial:terminado (1 capitulo)
+	},{
+		"nombreOriginal":"death note",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			terminado (37 capitulos)
+	},{
+		"nombreOriginal":"Samurai champloo",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			terminado  (26 capitulos)
+	},{
+		"nombreOriginal":"Seishun Buta Yarō wa Bunny Girl-senpai no Yume wo Minai",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			terminado (13 capitulos)
+			Seishun Buta Yarou wa Yumemiru Shoujo no Yume wo Minai (1 pelicula)
+	},{
+		"nombreOriginal":"sengoku musou",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+	},{
+		"nombreOriginal":"rwby",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece 
+	},{
+		"nombreOriginal":"samurai x",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+	},{
+		"nombreOriginal":"inuyasha",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+	},{
+		"nombreOriginal":"sakura card captor:",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+	},{
+		"nombreOriginal":"shaman kings",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			(original):no empece
+			(2021): termine el 1
+	},{
+		"nombreOriginal":"saint seiya",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+	},{
+		"nombreOriginal":"nobunaga the fool",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+	},{
+		"nombreOriginal":"Dragonball",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+	},{
+		"nombreOriginal":"Fairy tail",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+	},{
+		"nombreOriginal":"Digimon",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+	},{
+		"nombreOriginal":"Pokemon",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+	},{
+		"nombreOriginal":"Planet survival",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+	},{
+		"nombreOriginal":"Twelve kingdom",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+	},{
+		"nombreOriginal":"One piece",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+	},{
+		"nombreOriginal":"soul eater",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"bleach",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+
+	},{
+		"nombreOriginal":"code geass",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			temporada 1:terminado(25 capitulos)
+			temporada 2:terminado(25 capitulos)
+			
+	},{
+		"nombreOriginal":"medbot",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"magi",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"rave masters",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"ark IX",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			terminado (1 capitulo)
+		
+	},{
+		"nombreOriginal":"shirogane no ishi argevollen",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"Hataraku Maou-Sama",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"akame ga kill",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"hellsing",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"majimoji rurumo",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"Tengen Toppa Gurren Lagann",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"neo genesis evangelion",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			 no empece
+		
+	},{
+		"nombreOriginal":"log horizon",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"kill la kill",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"zatch bell o Konjiki no Gash Bell",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"world trigger",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"avatar: el ultimo maestra del aire",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			libro uno:terminado (20 capitulos)
+			libro dos:terminado (20 capitulos)
+			libro tres:terminado (21 capitulos)
+		
+	},{
+		"nombreOriginal":"kekkai sensen",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"gunslinger stratos the animation",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"owari no seraph",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"shokugeki no souma",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			termine el 1
+		
+	},{
+		"nombreOriginal":"vampire holmes",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"kuroko no basuke",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"Plastic memories",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"parasyte",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			terminado(24 capitulos)
+		
+	},{
+		"nombreOriginal":"sidonia no kishi",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"dungeon ni deai wo motomeru no wa machigatte iru darou ka",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"mikagura gakuen kumikyoku",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"god eater",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"charlotte",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"Hatsugi no chaika",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece 
+		
+	},{
+		"nombreOriginal":"Hai to gensou no grimgar",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"Luck and logic",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"blue exorcist",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			termine el 7
+		
+	},{
+		"nombreOriginal":"Jigoku Sensei Nube",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"K-project",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"stigma of the wind",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"k:return of kings",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"bungou stray dogs",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"sousei no onmyouji",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"endride",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"kiznaiver",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"seisen-cerberus-ryuukoku-no-fatalite",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"Date a liv",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"Black bulle",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"Hitsugi no chaika",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"monogatari series",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"Trickster: Edogawa Ranpo "Shounen Tanteidan" yori",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"Shuumatsu no Izetta",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"Occultic;Nine",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"Soul buster",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"Drifters",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"To Aru Majutsu no Index",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"strike the blood",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"kono subarashii sekai ni shukufuku wo(konosuba)",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			temporada 1:terminado(11 capitulos)
+			temporada 2:no empece
+		
+	},{
+		"nombreOriginal":"Shigatsu wa Kimi no Uso (Your lie in April)",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			terminado (22 capitulos)
+		
+	},{
+		"nombreOriginal":"irregular at magic schoo",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"black clover",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			termine el 2
+		
+	},{
+		"nombreOriginal":"the ancient magus bride",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"kakegurui",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"violet evergarden",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			terminado (13 capitulos)
+			gaiden: terminado(1 capitulo/pelicula)
+		
+	},{
+		"nombreOriginal":"Kino's Journey -the Beautiful World- the Animated Series",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			 no empece
+		
+	},{
+		"nombreOriginal":"Hibike! Euphonium",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"dr. stone",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			temporada 1:terminado (24 capitulos)
+		
+	},{
+		"nombreOriginal":"Enen no Shouboutai",
+		"nombreAlternativo":"Fire Force",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":24,"capitulosVistos":24,"duracion":23,"url":"https://myanimelist.net/anime/38671/Enen_no_Shouboutai"},
+			{"nombre":"temporada 2","capitulos":24,"capitulosVistos":24,"duracion":24,"url":"https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou"}
+		],
+		"generos":["Action", "Supernatural", "Shounen"]
+	},{
+		"nombreOriginal":"sangatsu no Lion (march comes in like a lion)",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			terminado (44 capitulos)
+			maybe temporada tres???
+		
+	},{
+		"nombreOriginal":"Reikenzan hoshikuzu tachi no utage",
+		"nombreAlternativo":"",
+		"temporadas":[],
+		"generos":[]
+			no empece
+		
+	},{
+		"nombreOriginal":"Yuukoku no Moriarty",
+		"nombreAlternativo":"Moriarty the Patriot",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":11,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/40911/Yuukoku_no_Moriarty"},
+			{"nombre":"temporada 2","capitulos":13,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/43325/Yuukoku_no_Moriarty_2nd_Season"}
+		],
+		"generos":["Mystery", "Historical", "Psychological", "Thriller", "Shounen"]
+	},{
+		"nombreOriginal":"Kyokou Suiri",
+		"nombreAlternativo":"In/Spectre",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/39017/Kyokou_Suiri"}
+		],
+		"generos":[ "Mystery", "Demons", "Supernatural", "Romance", "Shounen"]
+	},{
+		"nombreOriginal":"Kyoukai no Kanata",
+		"nombreAlternativo":"Beyond the Boundary",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/18153/Kyoukai_no_Kanata"}
+		],
+		"generos":["Slice of Life", "Supernatural", "Fantasy"]
+	},{
+		"nombreOriginal":"Wonder Egg Priority",
+		"nombreAlternativo":"Wonder Egg Priority",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/43299/Wonder_Egg_Priority"}
+		],
+		"generos":["Drama", "Fantasy", "Psychological"]
+		
+	},{
+		"nombreOriginal":"Kenja no Mago",
+		"nombreAlternativo":"Wise Man's Grandchild",		
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":12,"duracion":24,"url":"https://myanimelist.net/anime/36407/Kenja_no_Mago"}
+		],
+		"generos":["Action", "Comedy", "Magic", "Romance", "Fantasy"]
+		
+	},{
+		"nombreOriginal":"beastars",
+		"nombreAlternativo":"",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":12,"duracion":22,"url":"https://myanimelist.net/anime/39195/Beastars"},
+			{"nombre":"temporada 2","capitulos":12,"capitulosVistos":0,"duracion":22,"url":"https://myanimelist.net/anime/40935/Beastars_2nd_Season"}
+		],
+		"generos":["Slice of Life", "Psychological", "Drama", "School", "Shounen"]
+	},{
+		"nombreOriginal":"the quintessential quintuplets(Go-Toubun no Hanayome)",
+		"nombreAlternativo":"",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":12,"duracion":24,"url":"https://myanimelist.net/anime/38101/5-toubun_no_Hanayome"},
+			{"nombre":"temporada 2","capitulos":12,"capitulosVistos":12,"duracion":24,"url":"https://myanimelist.net/anime/39783/5-toubun_no_Hanayome_%E2%88%AC"}
+		],
+		"generos":["Harem", "Comedy", "Romance", "School", "Shounen"]
+	},{
+		"nombreOriginal":"Hai to Gensou no Grimgar",
+		"nombreAlternativo":"Grimgar: Ashes and Illusions",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/31859/Hai_to_Gensou_no_Grimgar"}
+		],
+		"generos":["Action", "Adventure", "Drama", "Fantasy"]
+	},{
+		"nombreOriginal":"Shuumatsu no Walküre",
+		"nombreAlternativo":"Record of Ragnarok",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":12,"duracion":24,"url":"https://myanimelist.net/anime/44942/Shuumatsu_no_Walk%C3%BCre"}
+		],
+		"generos":["Action", "Super Power", "Supernatural", "Drama", "Seinen"]
+		
+	},{
+		"nombreOriginal":"Overlord",
+		"nombreAlternativo":"Overlord",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":13,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/29803/Overlord"},
+			{"nombre":"temporada 2","capitulos":13,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/35073/Overlord_II"},
+			{"nombre":"temporada 3","capitulos":12,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/37675/Overlord_III"}
+		],
+		"generos":[ "Action", "Adventure", "Fantasy", "Game", "Magic", "Supernatural"]
+	},{
+		"nombreOriginal":"Tokyo Revengers",
+		"nombreAlternativo":"Tokyo Revengers",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":24,"capitulosVistos":12,"duracion":24,"url":"https://myanimelist.net/anime/42249/Tokyo_Revengers"}
+		],
+		"generos":["Action", "Supernatural", "Drama", "School", "Shounen"]
+	}
+]

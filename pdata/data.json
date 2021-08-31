@@ -832,84 +832,94 @@
 			no empece
 		
 	},{
-		"nombreOriginal":"strike the blood",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
+		"nombreOriginal":"Strike the Blood",
+		"nombreAlternativo":"Strike the Blood",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":24,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/18277/Strike_the_Blood"},
+			{"nombre":"temporada 1","capitulos":8,"capitulosVistos":0,"duracion":25,"url":"https://myanimelist.net/anime/33286/Strike_the_Blood_II"},
+			{"nombre":"temporada 1","capitulos":10,"capitulosVistos":0,"duracion":26,"url":"https://myanimelist.net/anime/37449/Strike_the_Blood_III"},
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":0,"duracion":25,"url":"https://myanimelist.net/anime/40485/Strike_the_Blood_IV"}
+		],
+		"generos":["Action", "Harem", "Supernatural", "Ecchi", "Vampire", "Fantasy", "School"]
+	},{
+		"nombreOriginal":"Kono Subarashii Sekai ni Shukufuku wo!",
+		"nombreAlternativo":"KonoSuba: God's Blessing on This Wonderful World!",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":11,"capitulosVistos":11,"duracion":23,"url":"https://myanimelist.net/anime/30831/Kono_Subarashii_Sekai_ni_Shukufuku_wo"},
+			{"nombre":"temporada 2","capitulos":10,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/32937/Kono_Subarashii_Sekai_ni_Shukufuku_wo_2"},
+			{"nombre":"pelicula: Kurenai Densetsu","capitulos":1,"capitulosVistos":0,"duracion":90,"url":"https://myanimelist.net/anime/38040/Kono_Subarashii_Sekai_ni_Shukufuku_wo_Movie__Kurenai_Densetsu"}
+		],
+		"generos":["Adventure", "Comedy", "Parody", "Supernatural", "Fantasy"]
 		
 	},{
-		"nombreOriginal":"kono subarashii sekai ni shukufuku wo(konosuba)",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			temporada 1:terminado(11 capitulos)
-			temporada 2:no empece
-		
+		"nombreOriginal":"Shigatsu wa Kimi no Uso",
+		"nombreAlternativo":"Your Lie in April",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":22,"capitulosVistos":22,"duracion":22,"url":"https://myanimelist.net/anime/23273/Shigatsu_wa_Kimi_no_Uso"}
+		],
+		"generos":["Music", "Drama", "Romance", "School", "Shounen"]
 	},{
-		"nombreOriginal":"Shigatsu wa Kimi no Uso (Your lie in April)",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			terminado (22 capitulos)
-		
+		"nombreOriginal":"Mahouka Koukou no Rettousei",
+		"nombreAlternativo":"The Irregular at Magic High School",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":26,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/20785/Mahouka_Koukou_no_Rettousei"},
+			{"nombre":"temporada 2","capitulos":13,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/40497/Mahouka_Koukou_no_Rettousei__Raihousha-hen"}
+		],
+		"generos":["Action", "Sci-Fi", "Supernatural", "Magic", "Romance", "School"]
 	},{
-		"nombreOriginal":"irregular at magic schoo",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Black Clover",
+		"nombreAlternativo":"Black Clover",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":170,"capitulosVistos":2,"duracion":23,"url":"https://myanimelist.net/anime/34572/Black_Clover"}
+		],
+		"generos":["Action", "Comedy", "Magic", "Fantasy", "Shounen"]
 	},{
-		"nombreOriginal":"black clover",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			termine el 2
-		
+		"nombreOriginal":"Mahoutsukai no Yome",
+		"nombreAlternativo":"The Ancient Magus' Bride",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":24,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/35062/Mahoutsukai_no_Yome"}
+		],
+		"generos":["Slice of Life", "Magic", "Fantasy", "Shounen"]
 	},{
-		"nombreOriginal":"the ancient magus bride",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Kakegurui",
+		"nombreAlternativo":"Kakegurui",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/34933/Kakegurui"},
+			{"nombre":"temporada 2","capitulos":12,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/37086/Kakegurui%C3%97%C3%97"}
+		],
+		"generos":["Game", "Mystery", "Psychological", "Drama", "School", "Shounen"]
 	},{
-		"nombreOriginal":"kakegurui",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Violet Evergarden",
+		"nombreAlternativo":"Violet Evergarden",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":13,"capitulosVistos":13,"duracion":24,"url":"https://myanimelist.net/anime/33352/Violet_Evergarden"},
+			{"nombre":"pelicula","capitulos":1,"capitulosVistos":1,"duracion":140,"url":"https://myanimelist.net/anime/37987/Violet_Evergarden_Movie"},
+			{"nombre":"Gaiden: Eien to Jidou Shuki Ningyou","capitulos":1,"capitulosVistos":1,"duracion":91,"url":"https://myanimelist.net/anime/39741/Violet_Evergarden_Gaiden__Eien_to_Jidou_Shuki_Ningyou"}
+		],
+		"generos":["Slice of Life", "Drama", "Fantasy"]
 	},{
-		"nombreOriginal":"violet evergarden",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			terminado (13 capitulos)
-			gaiden: terminado(1 capitulo/pelicula)
-		
-	},{
-		"nombreOriginal":"Kino's Journey -the Beautiful World- the Animated Series",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			 no empece
-		
+		"nombreOriginal":"Kino no Tabi: The Beautiful World - The Animated Series",
+		"nombreAlternativo":"Kino's Journey -the Beautiful World- the Animated Series",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/35079/Kino_no_Tabi__The_Beautiful_World_-_The_Animated_Series"}
+		],
+		"generos":[ "Action", "Adventure", "Slice of Life"]
 	},{
 		"nombreOriginal":"Hibike! Euphonium",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreAlternativo":"Sound! Euphonium",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":13,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/27989/Hibike_Euphonium"},
+			{"nombre":"temporada 2","capitulos":13,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/31988/Hibike_Euphonium_2"}
+		],
+		"generos":["Music", "Drama", "School"]
 	},{
-		"nombreOriginal":"dr. stone",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			temporada 1:terminado (24 capitulos)
-		
+		"nombreOriginal":"Dr. Stone",
+		"nombreAlternativo":"Dr. Stone",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":24,"capitulosVistos":24,"duracion":24,"url":"https://myanimelist.net/anime/38691/Dr_Stone"},
+			{"nombre":"temporada 2: Stone Wars","capitulos":11,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/40852/Dr_Stone__Stone_Wars"}
+		],
+		"generos":[ "Sci-Fi", "Adventure", "Comedy", "Shounen" ]
 	},{
 		"nombreOriginal":"Enen no Shouboutai",
 		"nombreAlternativo":"Fire Force",
@@ -919,20 +929,20 @@
 		],
 		"generos":["Action", "Supernatural", "Shounen"]
 	},{
-		"nombreOriginal":"sangatsu no Lion (march comes in like a lion)",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			terminado (44 capitulos)
-			maybe temporada tres???
-		
+		"nombreOriginal":"3-gatsu no Lion",
+		"nombreAlternativo":"March comes in like a lion",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":22,"capitulosVistos":22,"duracion":25,"url":"https://myanimelist.net/anime/31646/3-gatsu_no_Lion"},
+			{"nombre":"temporada 2","capitulos":22,"capitulosVistos":22,"duracion":25,"url":"https://myanimelist.net/anime/35180/3-gatsu_no_Lion_2nd_Season"}
+		],
+		"generos":["Drama", "Game", "Seinen", "Slice of Life"]
 	},{
 		"nombreOriginal":"Reikenzan hoshikuzu tachi no utage",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreAlternativo":"Reikenzan hoshikuzu tachi no utage",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/32094/Reikenzan__Hoshikuzu-tachi_no_Utage"}
+		],
+		"generos":["Comedy", "Magic", "Fantasy"]
 	},{
 		"nombreOriginal":"Yuukoku no Moriarty",
 		"nombreAlternativo":"Moriarty the Patriot",

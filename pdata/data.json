@@ -762,26 +762,31 @@
 			no empece
 		
 	},{
-		"nombreOriginal":"Date a liv",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Date A Live",
+		"nombreAlternativo":"Date A Live",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":0,"duracion":25,"url":"https://myanimelist.net/anime/15583/Date_A_Live"},
+			{"nombre":"Date to date","capitulos":1,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/17641/Date_A_Live__Date_to_Date"},
+			{"nombre":"temporada 2","capitulos":10,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/19163/Date_A_Live_II"},
+			{"nombre":"pelicula","capitulos":1,"capitulosVistos":0,"duracion":72,"url":"https://myanimelist.net/anime/24655/Date_A_Live_Movie__Mayuri_Judgment"},
+			{"nombre":"temporada 3","capitulos":12,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/36633/Date_A_Live_III"}
+		],
+		"generos":[ "Sci-Fi", "Harem", "Comedy", "Romance", "Mecha", "School"]
 	},{
-		"nombreOriginal":"Black bulle",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Black Bullet",
+		"nombreAlternativo":"Black Bullet",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/20787/Black_Bullet"}
+		],
+		"generos":["Action", "Sci-Fi", "Mystery", "Seinen"]
 	},{
-		"nombreOriginal":"Hitsugi no chaika",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Hitsugi no Chaika",
+		"nombreAlternativo":"Chaika -The Coffin Princess-",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/20853/Hitsugi_no_Chaika"},
+			{"nombre":"Avenging Battle","capitulos":10,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/24231/Hitsugi_no_Chaika__Avenging_Battle"}
+		],
+		"generos":["Action", "Adventure", "Comedy", "Romance", "Fantasy"]
 	},{
 		"nombreOriginal":"monogatari series",
 		"nombreAlternativo":"",
@@ -790,47 +795,52 @@
 			no empece
 		
 	},{
-		"nombreOriginal":"Trickster: Edogawa Ranpo "Shounen Tanteidan" yori",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Trickster: Edogawa Ranpo \"Shounen Tanteidan\" yori",
+		"nombreAlternativo":"Trickster",
+		"temporadas":[
+			{"nombre":"OVA","capitulos":2,"capitulosVistos":0,"duracion":25,"url":"https://myanimelist.net/anime/34197/Trickster__Edogawa_Ranpo_Shounen_Tanteidan_yori_OVA"},
+			{"nombre":"temporada 1","capitulos":24,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/33377/Trickster__Edogawa_Ranpo_Shounen_Tanteidan_yori"}
+		],
+		"generos":["Sci-Fi", "Mystery", "Psychological", "Drama"]
 	},{
 		"nombreOriginal":"Shuumatsu no Izetta",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreAlternativo":"Izetta: The Last Witch",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":0,"duracion":25,"url":"https://myanimelist.net/anime/33433/Shuumatsu_no_Izetta"}
+		],
+		"generos":["Action", "Historical", "Military"]
 	},{
 		"nombreOriginal":"Occultic;Nine",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreAlternativo":"Occultic;Nine",
+		"temporadas":[
+			{"nombre":"temporad 1","capitulos":12,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/32962/Occultic_Nine"}
+		],
+		"generos":["Sci-Fi", "Mystery"]
 	},{
-		"nombreOriginal":"Soul buster",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Soul Buster",
+		"nombreAlternativo":"Soul Buster",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":0,"duracion":13,"url":"https://myanimelist.net/anime/33775/Soul_Buster"}
+		],
+		"generos":["Action", "Samurai"]
 	},{
 		"nombreOriginal":"Drifters",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreAlternativo":"Drifters",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/31339/Drifters"},
+			{"nombre":"OVA","capitulos":2,"capitulosVistos":0,"duracion":26,"url":"https://myanimelist.net/anime/36480/Drifters_OVA"},
+			{"nombre":"The Outlandish Knight","capitulos":1,"capitulosVistos":0,"duracion":30,"url":"https://myanimelist.net/anime/38360/Drifters__The_Outlandish_Knight"}
+		],
+		"generos":[ "Action", "Adventure", "Comedy", "Historical", "Samurai", "Fantasy", "Seinen"]
 	},{
-		"nombreOriginal":"To Aru Majutsu no Index",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Toaru Majutsu no Index",
+		"nombreAlternativo":"A Certain Magical Index",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":24,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/4654/Toaru_Majutsu_no_Index"},
+			{"nombre":"temporada 2","capitulos":24,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/8937/Toaru_Majutsu_no_Index_II"},
+			{"nombre":"temporada 3","capitulos":26,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/36432/Toaru_Majutsu_no_Index_III"}
+		],
+		"generos":["Action", "Magic", "Sci-Fi", "Super Power"]		
 	},{
 		"nombreOriginal":"Strike the Blood",
 		"nombreAlternativo":"Strike the Blood",

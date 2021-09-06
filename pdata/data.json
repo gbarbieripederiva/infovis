@@ -120,11 +120,11 @@
 		"nombreOriginal":"Nanatsu no Taizai",
 		"nombreAlternativo":"The seven deadly sins",
 		"temporadas":[
-			{"nombre":"temporada 1","capitulos":26,"capitulosVistos":26},
-			{"nombre":"temporada 2","capitulos":24,"capitulosVistos":24},
-			{"nombre":"temporada 3","capitulos":24,"capitulosVistos":24},
-			{"nombre":"temporada 4","capitulos":24,"capitulosVistos":24},
-			// {"nombre":"temporada 5","capitulos":25,"capitulosVistos":25}
+			{"nombre":"temporada 1","capitulos":26,"capitulosVistos":26,"duracion":24,"url":"https://myanimelist.net/anime/23755/Nanatsu_no_Taizai"},
+			{"nombre":"temporada 2","capitulos":24,"capitulosVistos":24,"duracion":24,"url":"https://myanimelist.net/anime/31722/Nanatsu_no_Taizai__Seisen_no_Shirushi"},
+			{"nombre":"temporada 3","capitulos":24,"capitulosVistos":24,"duracion":24,"url":"https://myanimelist.net/anime/39701/Nanatsu_no_Taizai__Kamigami_no_Gekirin"},
+			{"nombre":"temporada 4","capitulos":24,"capitulosVistos":24,"duracion":24,"url":"https://myanimelist.net/anime/39701/Nanatsu_no_Taizai__Kamigami_no_Gekirin"},
+			{"nombre":"temporada 5","capitulos":24,"capitulosVistos":24,"duracion":24,"url":"https://myanimelist.net/anime/41491/Nanatsu_no_Taizai__Fundo_no_Shinpan"}
 		],
 		"generos":["Action", "Adventure", "Supernatural", "Magic", "Fantasy", "Shounen"]
 	},{
@@ -195,7 +195,7 @@
 			{"nombre":"zero","capitulos":13,"capitulosVistos":11},
 			{"nombre":"zero temporada 2","capitulos":12,"capitulosVistos":0},
 			{"nombre":"apocrypha","capitulos":25,"capitulosVistos":25},
-			{"nombre":"extra last encore","capitulos":10,"capitulosVistos":10},
+			{"nombre":"extra last encore","capitulos":10,"capitulosVistos":10}
 		],
 		"generos":["Action", "Supernatural", "Drama", "Magic", "Fantasy", "Romance"]
 	},{
@@ -277,23 +277,30 @@
 		],
 		"generos":["Action", "Adventure", "Comedy", "Super Power", "Demons", "Shounen"]
 	},{
-		"nombreOriginal":"Arslan senki",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
+		"nombreOriginal":"Arslan Senki",
+		"nombreAlternativo":"The Heroic Legend of Arslan",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":25,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/28249/Arslan_Senki_TV"},
+			{"nombre":"Fuujin Ranbu","capitulos":8,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/31821/Arslan_Senki_TV__Fuujin_Ranbu"}
+		],
+		"generos":[ "Action", "Adventure", "Historical", "Supernatural", "Drama", "Fantasy", "Shounen"]
 	},{
-		"nombreOriginal":"orange",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
+		"nombreOriginal":"Orange",
+		"nombreAlternativo":"Orange",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":13,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/32729/Orange"},
+			{"nombre":"mirai","capitulos":1,"capitulosVistos":0,"duracion":62,"url":"https://myanimelist.net/anime/34136/Orange__Mirai"}
+		],
+		"generos":[ "Sci-Fi", "Drama", "Romance", "School", "Shoujo"]
 	},{
-		"nombreOriginal":"tales of zestiria the x",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
+		"nombreOriginal":"Tales of Zestiria the Cross",
+		"nombreAlternativo":"Tales of Zestiria the X",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/30911/Tales_of_Zestiria_the_Cross"},
+			{"nombre":"Saiyaku no Jidai","capitulos":1,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/33558/Tales_of_Zestiria_the_Cross__Saiyaku_no_Jidai"},
+			{"nombre":"temporada 2","capitulos":13,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/34086/Tales_of_Zestiria_the_Cross_2nd_Season"}
+		],
+		"generos":["Action", "Adventure", "Magic", "Fantasy"]
 	},{
 		"nombreOriginal":"la leyenda de korra",
 		"nombreAlternativo":"",
@@ -306,13 +313,15 @@
 	},{
 		"nombreOriginal":"steins;gate",
 		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			terminado (24 capitulos)
-			Steins;Gate: Oukoubakko no Poriomania: terminado(1 capitulo)
-			Steins;Gate: Kyoukaimenjou no Missing Link - Divide By Zero: no empece	
-			Steins;Gate Movie: Fuka Ryouiki no Déjà vu: terminado (1 capitulo)
-			steins gate 0: no empece
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":24,"capitulosVistos":24,"duracion":24,"url":"https://myanimelist.net/anime/9253/Steins_Gate"},
+			{"nombre":"Oukoubakko no Poriomania","capitulos":1,"capitulosVistos":1,"duracion":24,"url":"https://myanimelist.net/anime/10863/Steins_Gate__Oukoubakko_no_Poriomania"},
+			{"nombre":"Fuka Ryouiki no Déjà vu","capitulos":1,"capitulosVistos":1,"duracion":90,"url":"https://myanimelist.net/anime/11577/Steins_Gate_Movie__Fuka_Ryouiki_no_D%C3%A9j%C3%A0_vu"},
+			{"nombre":"Kyoukaimenjou no Missing Link - Divide By Zero","capitulos":1,"capitulosVistos":1,"duracion":24,"url":"https://myanimelist.net/anime/32188/Steins_Gate__Kyoukaimenjou_no_Missing_Link_-_Divide_By_Zero"},
+			{"nombre":"0","capitulos":23,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/30484/Steins_Gate_0"},
+			{"nombre":"Kesshou Takei no Valentine - Bittersweet Intermedio","capitulos":1,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/37492/Steins_Gate_0__Kesshou_Takei_no_Valentine_-_Bittersweet_Intermedio"}
+		],
+		"generos":["Sci-Fi", "Psychological", "Drama", "Thriller", "Comedy", "Slice of Life"]
 	},{
 		"nombreOriginal":"hunter x hunter",
 		"nombreAlternativo":"",
@@ -327,37 +336,42 @@
 		"generos":[]
 			termine el 55
 	},{
-		"nombreOriginal":"mirai nikki",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			terminado (26 capitulos)
-			mirai nikki redial:terminado (1 capitulo)
+		"nombreOriginal":"Mirai Nikki",
+		"nombreAlternativo":"The Future Diary",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":26,"capitulosVistos":26,"duracion":23,"url":"https://myanimelist.net/anime/10620/Mirai_Nikki_TV"},
+			{"nombre":"redial","capitulos":1,"capitulosVistos":1,"duracion":29,"url":"https://myanimelist.net/anime/16762/Mirai_Nikki__Redial"}
+		],
+		"generos":["Action", "Mystery", "Psychological", "Supernatural", "Thriller", "Shounen"]
 	},{
-		"nombreOriginal":"death note",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			terminado (37 capitulos)
+		"nombreOriginal":"Death Note",
+		"nombreAlternativo":"Death Note",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":37,"capitulosVistos":37,"duracion":23,"url":"https://myanimelist.net/anime/1535/Death_Note"}
+		],
+		"generos":["Mystery", "Police", "Psychological", "Supernatural", "Thriller", "Shounen"]
 	},{
-		"nombreOriginal":"Samurai champloo",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			terminado  (26 capitulos)
+		"nombreOriginal":"Samurai Champloo",
+		"nombreAlternativo":"Samurai Champloo",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":26,"capitulosVistos":26,"duracion":24,"url":"https://myanimelist.net/anime/205/Samurai_Champloo"}
+		],
+		"generos":["Action", "Adventure", "Comedy", "Historical", "Samurai", "Shounen"]
 	},{
 		"nombreOriginal":"Seishun Buta Yarō wa Bunny Girl-senpai no Yume wo Minai",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			terminado (13 capitulos)
-			Seishun Buta Yarou wa Yumemiru Shoujo no Yume wo Minai (1 pelicula)
+		"nombreAlternativo":"Rascal Does Not Dream of Bunny Girl Senpai",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":13,"capitulosVistos":13,"duracion":24,"url":"https://myanimelist.net/anime/37450/Seishun_Buta_Yarou_wa_Bunny_Girl_Senpai_no_Yume_wo_Minai"},
+			{"nombre":"Seishun Buta Yarou wa Yumemiru Shoujo no Yume wo Minai","capitulos":1,"capitulosVistos":1,"duracion":90,"url":"https://myanimelist.net/anime/38329/Seishun_Buta_Yarou_wa_Yumemiru_Shoujo_no_Yume_wo_Minai"}
+		],
+		"generos":["Comedy", "Supernatural", "Drama", "Romance", "School"]
 	},{
-		"nombreOriginal":"sengoku musou",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
+		"nombreOriginal":"Sengoku Musou",
+		"nombreAlternativo":"Sengoku Musou",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/28283/Sengoku_Musou"}
+		],
+		"generos":["Action", "Historical", "Samurai"]
 	},{
 		"nombreOriginal":"rwby",
 		"nombreAlternativo":"",
@@ -365,23 +379,32 @@
 		"generos":[]
 			no empece 
 	},{
-		"nombreOriginal":"samurai x",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
+		"nombreOriginal":"Rurouni Kenshin: Meiji Kenkaku Romantan",
+		"nombreAlternativo":"Rurouni Kenshin",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":94,"capitulosVistos":0,"duracion":25,"url":"https://myanimelist.net/anime/45/Rurouni_Kenshin__Meiji_Kenkaku_Romantan"},
+			{"nombre":"Tsuioku-hen","capitulos":4,"capitulosVistos":0,"duracion":30,"url":"https://myanimelist.net/anime/44/Rurouni_Kenshin__Meiji_Kenkaku_Romantan_-_Tsuioku-hen"},
+			{"nombre":"Seisou-hen","capitulos":2,"capitulosVistos":0,"duracion":42,"url":"https://myanimelist.net/anime/401/Rurouni_Kenshin__Meiji_Kenkaku_Romantan_-_Seisou-hen"}
+		],
+		"generos":["Action", "Adventure", "Comedy", "Historical", "Romance", "Samurai", "Shounen"]
 	},{
-		"nombreOriginal":"inuyasha",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
+		"nombreOriginal":"InuYasha",
+		"nombreAlternativo":"InuYasha",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":167,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/249/InuYasha"},
+			{"nombre":"temporadaKanketsu-hen","capitulos":26,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/6811/InuYasha__Kanketsu-hen"},
+			{"nombre":"Hanyou no Yashahime: Sengoku Otogizoushi","capitulos":24,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/41911/Hanyou_no_Yashahime__Sengoku_Otogizoushi"}
+		],
+		"generos":["Action", "Adventure", "Comedy", "Historical", "Demons", "Supernatural", "Magic", "Romance", "Fantasy", "Shounen"]
 	},{
-		"nombreOriginal":"sakura card captor:",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
+		"nombreOriginal":"Cardcaptor Sakura",
+		"nombreAlternativo":"Cardcaptor Sakura",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":70,"capitulosVistos":0,"duracion":25,"url":"https://myanimelist.net/anime/232/Cardcaptor_Sakura"},
+			{"nombre":"Clear Card-hen Prologue - Sakura to Futatsu no Kuma","capitulos":1,"capitulosVistos":0,"duracion":26,"url":"https://myanimelist.net/anime/35320/Cardcaptor_Sakura__Clear_Card-hen_Prologue_-_Sakura_to_Futatsu_no_Kuma"},
+			{"nombre":"Clear Card-hen","capitulos":22,"capitulosVistos":0,"duracion":25,"url":"https://myanimelist.net/anime/33354/Cardcaptor_Sakura__Clear_Card-hen"}
+		],
+		"generos":["Adventure", "Comedy", "Drama", "Magic", "Romance", "Fantasy", "School", "Shoujo"]
 	},{
 		"nombreOriginal":"shaman kings",
 		"nombreAlternativo":"",
@@ -396,11 +419,12 @@
 		"generos":[]
 			no empece
 	},{
-		"nombreOriginal":"nobunaga the fool",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
+		"nombreOriginal":"Nobunaga the Fool",
+		"nombreAlternativo":"Nobunaga the Fool",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":24,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/21177/Nobunaga_the_Fool"}
+		],
+		"generos":["Action", "Historical", "Mecha", "Sci-Fi"]
 	},{
 		"nombreOriginal":"Dragonball",
 		"nombreAlternativo":"",
@@ -408,11 +432,14 @@
 		"generos":[]
 			no empece
 	},{
-		"nombreOriginal":"Fairy tail",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
+		"nombreOriginal":"Fairy Tail",
+		"nombreAlternativo":"Fairy Tail",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":175,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/6702/Fairy_Tail"},
+			{"nombre":"temporada 2","capitulos":102,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/22043/Fairy_Tail_2014"},
+			{"nombre":"temporada final","capitulos":51,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/35972/Fairy_Tail__Final_Series"}
+		],
+		"generos":[ "Action", "Adventure", "Comedy", "Magic", "Fantasy", "Shounen"]
 	},{
 		"nombreOriginal":"Digimon",
 		"nombreAlternativo":"",
@@ -426,17 +453,19 @@
 		"generos":[]
 			no empece
 	},{
-		"nombreOriginal":"Planet survival",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
+		"nombreOriginal":"Mujin Wakusei Survive",
+		"nombreAlternativo":"Planet survival",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":52,"capitulosVistos":0,"duracion":25,"url":"https://myanimelist.net/anime/709/Mujin_Wakusei_Survive"}
+		],
+		"generos":["Action", "Adventure", "Fantasy", "Sci-Fi", "Slice of Life"]
 	},{
-		"nombreOriginal":"Twelve kingdom",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
+		"nombreOriginal":"Juuni Kokuki",
+		"nombreAlternativo":"The Twelve Kingdoms",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":45,"capitulosVistos":0,"duracion":25,"url":"https://myanimelist.net/anime/153/Juuni_Kokuki"}
+		],
+		"generos":["Action", "Adventure", "Fantasy", "Magic", "Supernatural"]
 	},{
 		"nombreOriginal":"One piece",
 		"nombreAlternativo":"",
@@ -444,12 +473,13 @@
 		"generos":[]
 			no empece
 	},{
-		"nombreOriginal":"soul eater",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Soul Eater",
+		"nombreAlternativo":"Soul Eater",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":51,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/3588/Soul_Eater"},
+			{"nombre":"NOT!","capitulos":12,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/21507/Soul_Eater_NOT"}
+		],
+		"generos":["Action", "Fantasy", "Comedy", "Supernatural", "Shounen"]
 	},{
 		"nombreOriginal":"bleach",
 		"nombreAlternativo":"",
@@ -466,54 +496,59 @@
 			temporada 2:terminado(25 capitulos)
 			
 	},{
-		"nombreOriginal":"medbot",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Medarot",
+		"nombreAlternativo":"Medabots",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":52,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/1138/Medarot"},
+			{"nombre":"Damashii","capitulos":39,"capitulosVistos":0,"duracion":22,"url":"https://myanimelist.net/anime/4052/Medarot_Damashii"}
+		],
+		"generos":["Adventure", "Comedy", "Sci-Fi", "Shounen"]
 	},{
-		"nombreOriginal":"magi",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Magi",
+		"nombreAlternativo":"Magi",
+		"temporadas":[
+			{"nombre":"The Labyrinth of Magic","capitulos":25,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/14513/Magi__The_Labyrinth_of_Magic"},
+			{"nombre":"Sinbad no Bouken (TV)","capitulos":13,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/31741/Magi__Sinbad_no_Bouken_TV"},
+			{"nombre":"Sinbad no Bouken","capitulos":5,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/22097/Magi__Sinbad_no_Bouken"},
+			{"nombre":"The Kingdom of Magic","capitulos":25,"capitulosVistos":0,"duracion":25,"url":"https://myanimelist.net/anime/18115/Magi__The_Kingdom_of_Magic"}
+		],
+		"generos":["Action", "Adventure", "Fantasy", "Magic", "Shounen"]
 	},{
-		"nombreOriginal":"rave masters",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Groove Adventure Rave",
+		"nombreAlternativo":"Rave Master",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":51,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/246/Groove_Adventure_Rave"}
+		],
+		"generos":["Adventure", "Comedy", "Fantasy", "Romance", "Shounen"]
 	},{
-		"nombreOriginal":"ark IX",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			terminado (1 capitulo)
-		
+		"nombreOriginal":"Ark IX",
+		"nombreAlternativo":"Ark Nine",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":1,"capitulosVistos":1,"duracion":11,"url":"https://myanimelist.net/anime/17395/Ark_IX"}
+		],
+		"generos":["Action"]
 	},{
-		"nombreOriginal":"shirogane no ishi argevollen",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Shirogane no Ishi: Argevollen",
+		"nombreAlternativo":"Argevollen",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":24,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/23325/Shirogane_no_Ishi__Argevollen"}
+		],
+		"generos":[ "Action", "Mecha"]
 	},{
-		"nombreOriginal":"Hataraku Maou-Sama",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Hataraku Maou-sama!",
+		"nombreAlternativo":"The Devil is a Part-Timer!",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":13,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/15809/Hataraku_Maou-sama"}
+		],
+		"generos":["Comedy", "Demons", "Supernatural", "Romance", "Fantasy"]
 	},{
-		"nombreOriginal":"akame ga kill",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Akame ga Kill!",
+		"nombreAlternativo":"Akame ga Kill!",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":24,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/22199/Akame_ga_Kill"},
+			{"nombre":"Gekijou","capitulos":24,"capitulosVistos":0,"duracion":1,"url":"https://myanimelist.net/anime/25241/AkaKill_Gekijou"}
+		],
+		"generos":["Action", "Adventure", "Drama", "Fantasy", "Shounen"]
 	},{
 		"nombreOriginal":"hellsing",
 		"nombreAlternativo":"",
@@ -543,33 +578,41 @@
 			 no empece
 		
 	},{
-		"nombreOriginal":"log horizon",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Log Horizon",
+		"nombreAlternativo":"Log Horizon",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":25,"capitulosVistos":0,"duracion":25,"url":"https://myanimelist.net/anime/17265/Log_Horizon"},
+			{"nombre":"temporada 2","capitulos":25,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/23321/Log_Horizon_2nd_Season"},
+			{"nombre":"Entaku Houkai","capitulos":12,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/41109/Log_Horizon__Entaku_Houkai"}
+		],
+		"generos":["Action", "Game", "Adventure", "Magic", "Fantasy"]
 	},{
-		"nombreOriginal":"kill la kill",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Kill la Kill",
+		"nombreAlternativo":"Kill la Kill",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":24,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/18679/Kill_la_Kill"},
+			{"nombre":"specials","capitulos":2,"capitulosVistos":0,"duracion":18,"url":"https://myanimelist.net/anime/21659/Kill_la_Kill_Specials"}
+		],
+		"generos":["Action", "Comedy", "Super Power", "Ecchi", "School"]
 	},{
-		"nombreOriginal":"zatch bell o Konjiki no Gash Bell",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Konjiki no Gash Bell!!",
+		"nombreAlternativo":"Zatch Bell!",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":150,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/250/Konjiki_no_Gash_Bell"},
+			{"nombre":"101 Banme no Mamono","capitulos":1,"capitulosVistos":0,"duracion":84,"url":"https://myanimelist.net/anime/844/Konjiki_no_Gash_Bell__101_Banme_no_Mamono"},
+			{"nombre":"Mecha Vulkan no Raishuu","capitulos":1,"capitulosVistos":0,"duracion":84,"url":"https://myanimelist.net/anime/911/Konjiki_no_Gash_Bell__Mecha_Vulkan_no_Raishuu"},
+			{"nombre":"Ougon no Chichi wo Motsu Otoko","capitulos":1,"capitulosVistos":0,"duracion":18,"url":"https://myanimelist.net/anime/7430/Konjiki_no_Gash_Bell__Ougon_no_Chichi_wo_Motsu_Otoko"},
+			{"nombre":"Hashire Gash!! Ubawareta Umagon","capitulos":1,"capitulosVistos":0,"duracion":21,"url":"https://myanimelist.net/anime/10732/Konjiki_no_Gash_Bell__Hashire_Gash_Ubawareta_Umagon"}
+		],
+		"generos":["Adventure", "Comedy", "Demons", "Supernatural", "Magic", "Shounen"]
 	},{
-		"nombreOriginal":"world trigger",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"World Trigger",
+		"nombreAlternativo":"World Trigger",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":73,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/24405/World_Trigger"},
+			{"nombre":"temporada 2","capitulos":12,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/40907/World_Trigger_2nd_Season"}
+		],
+		"generos":["Action", "Sci-Fi", "Supernatural", "School", "Shounen"]
 	},{
 		"nombreOriginal":"avatar: el ultimo maestra del aire",
 		"nombreAlternativo":"",
@@ -580,187 +623,214 @@
 			libro tres:terminado (21 capitulos)
 		
 	},{
-		"nombreOriginal":"kekkai sensen",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Kekkai Sensen",
+		"nombreAlternativo":"Blood Blockade Battlefront",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":0,"duracion":26,"url":"https://myanimelist.net/anime/24439/Kekkai_Sensen"},
+			{"nombre":"Kekkai Sensen & Beyond","capitulos":12,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/34451/Kekkai_Sensen___Beyond"},
+			{"nombre":"Kekkai Sensen & Beyond: Zapp Renfro Ingaouhouchuu!!/Baccardio no Shizuku","capitulos":1,"capitulosVistos":0,"duracion":25,"url":"https://myanimelist.net/anime/37364/Kekkai_Sensen___Beyond__Zapp_Renfro_Ingaouhouchuu_Baccardio_no_Shizuku"},
+			{"nombre":"Ousama no Restaurant no Ousama","capitulos":1,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/32574/Kekkai_Sensen__Ousama_no_Restaurant_no_Ousama"}
+		],
+		"generos":["Action", "Comedy", "Super Power", "Supernatural", "Vampire", "Fantasy", "Shounen"]
 	},{
-		"nombreOriginal":"gunslinger stratos the animation",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Gunslinger Stratos The Animation",
+		"nombreAlternativo":"Gunslinger Stratos The Animation",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/28791/Gunslinger_Stratos_The_Animation"}
+		],
+		"generos":["Action", "Sci-Fi"]
 	},{
-		"nombreOriginal":"owari no seraph",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Owari no Seraph",
+		"nombreAlternativo":"Seraph of the End: Vampire Reign",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/26243/Owari_no_Seraph"},
+			{"nombre":"temporada 2:Nagoya Kessen-hen","capitulos":12,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/28927/Owari_no_Seraph__Nagoya_Kessen-hen"},
+			{"nombre":"Kyuuketsuki Shahar","capitulos":1,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/31378/Owari_no_Seraph__Kyuuketsuki_Shahar"}
+		],
+		"generos":["Action", "Military", "Supernatural", "Drama", "Vampire", "Shounen"]
 	},{
-		"nombreOriginal":"shokugeki no souma",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			termine el 1
-		
+		"nombreOriginal":"Shokugeki no Souma",
+		"nombreAlternativo":"Food Wars! Shokugeki no Soma",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":24,"capitulosVistos":1,"duracion":25,"url":"https://myanimelist.net/anime/28171/Shokugeki_no_Souma"},
+			{"nombre":"temporada 2","capitulos":13,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/32282/Shokugeki_no_Souma__Ni_no_Sara"},
+			{"nombre":"temporada 2 OVA","capitulos":2,"capitulosVistos":0,"duracion":25,"url":"https://myanimelist.net/anime/34480/Shokugeki_no_Souma__Ni_no_Sara_OVA"},
+			{"nombre":"temporada 3","capitulos":12,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/35788/Shokugeki_no_Souma__San_no_Sara"},
+			{"nombre":"temporada 3:Kyokuseiryou no Erina","capitulos":1,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/36962/Shokugeki_no_Souma__San_no_Sara_-_Kyokuseiryou_no_Erina"},
+			{"nombre":"temporada 3:Tootsuki Ressha-hen","capitulos":12,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/36949/Shokugeki_no_Souma__San_no_Sara_-_Tootsuki_Ressha-hen"},
+			{"nombre":"temporada 4","capitulos":12,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/39940/Shokugeki_no_Souma__Shin_no_Sara"},
+			{"nombre":"temporada 5","capitulos":13,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/40902/Shokugeki_no_Souma__Gou_no_Sara"}
+		],
+		"generos":["Ecchi", "School", "Shounen"]
 	},{
-		"nombreOriginal":"vampire holmes",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Vampire Holmes",
+		"nombreAlternativo":"Vampire Holmes",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":0,"duracion":3,"url":"https://myanimelist.net/anime/28929/Vampire_Holmes"}
+		],
+		"generos":["Mystery", "Comedy", "Supernatural"]
 	},{
-		"nombreOriginal":"kuroko no basuke",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Kuroko no Basket",
+		"nombreAlternativo":"Kuroko's Basketball",
+		"temporadas":[
+			{"nombre":"Tip Off","capitulos":1,"capitulosVistos":0,"duracion":25,"url":"https://myanimelist.net/anime/16916/Kuroko_no_Basket__Tip_Off"},
+			{"nombre":"temporada 1","capitulos":25,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/11771/Kuroko_no_Basket"},
+			{"nombre":"temporada 2","capitulos":25,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/16894/Kuroko_no_Basket_2nd_Season"},
+			{"nombre":"temporada 3","capitulos":25,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/24415/Kuroko_no_Basket_3rd_Season"},
+			{"nombre":"pelicula 1","capitulos":1,"capitulosVistos":0,"duracion":87,"url":"https://myanimelist.net/anime/32869/Kuroko_no_Basket_Movie_1__Winter_Cup_-_Kage_to_Hikari"},
+			{"nombre":"pelicula 2","capitulos":1,"capitulosVistos":0,"duracion":87,"url":"https://myanimelist.net/anime/32870/Kuroko_no_Basket_Movie_2__Winter_Cup_-_Namida_no_Saki_e"},
+			{"nombre":"pelicula 3","capitulos":1,"capitulosVistos":0,"duracion":88,"url":"https://myanimelist.net/anime/32871/Kuroko_no_Basket_Movie_3__Winter_Cup_-_Tobira_no_Mukou"},
+			{"nombre":"pelicula 4","capitulos":1,"capitulosVistos":0,"duracion":90,"url":"https://myanimelist.net/anime/31658/Kuroko_no_Basket_Movie_4__Last_Game"}
+		],
+		"generos":["Comedy", "Sports", "School", "Shounen"]
 	},{
-		"nombreOriginal":"Plastic memories",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Plastic Memories",
+		"nombreAlternativo":"Plastic Memories",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":13,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/27775/Plastic_Memories"}
+		],
+		"generos":["Sci-Fi", "Drama", "Romance"]
 	},{
-		"nombreOriginal":"parasyte",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			terminado(24 capitulos)
-		
+		"nombreOriginal":"Kiseijuu: Sei no Kakuritsu",
+		"nombreAlternativo":"Parasyte -the maxim-",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":24,"capitulosVistos":24,"duracion":23,"url":"https://myanimelist.net/anime/22535/Kiseijuu__Sei_no_Kakuritsu"}
+		],
+		"generos":["Action", "Sci-Fi", "Horror", "Psychological", "Drama", "Seinen"]
 	},{
-		"nombreOriginal":"sidonia no kishi",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Sidonia no Kishi",
+		"nombreAlternativo":"Knights of Sidonia",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/19775/Sidonia_no_Kishi"},
+			{"nombre":"Daikyuu Wakusei Seneki","capitulos":12,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/24893/Sidonia_no_Kishi__Daikyuu_Wakusei_Seneki"},
+			{"nombre":"Ai Tsumugu Hoshi","capitulos":1,"capitulosVistos":0,"duracion":110,"url":"https://myanimelist.net/anime/35759/Sidonia_no_Kishi__Ai_Tsumugu_Hoshi"}
+		],
+		"generos":["Action", "Mecha", "Sci-Fi", "Seinen", "Space"]
 	},{
-		"nombreOriginal":"dungeon ni deai wo motomeru no wa machigatte iru darou ka",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka",
+		"nombreAlternativo":"Is It Wrong to Try to Pick Up Girls in a Dungeon?",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":13,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/28121/Dungeon_ni_Deai_wo_Motomeru_no_wa_Machigatteiru_Darou_ka"},
+			{"nombre":"temporada 2","capitulos":12,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/37347/Dungeon_ni_Deai_wo_Motomeru_no_wa_Machigatteiru_Darou_ka_II"},
+			{"nombre":"temporada 2 OVA","capitulos":1,"capitulosVistos":0,"duracion":26,"url":"https://myanimelist.net/anime/40453/Dungeon_ni_Deai_wo_Motomeru_no_wa_Machigatteiru_Darou_ka_II_OVA"},
+			{"nombre":"temporada 3","capitulos":12,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/40454/Dungeon_ni_Deai_wo_Motomeru_no_wa_Machigatteiru_Darou_ka_III"}
+		],
+		"generos":["Action", "Adventure", "Comedy", "Romance", "Fantasy"]
 	},{
-		"nombreOriginal":"mikagura gakuen kumikyoku",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Mikagura Gakuen Kumikyoku",
+		"nombreAlternativo":"Mikagura School Suite",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/28817/Mikagura_Gakuen_Kumikyoku_TV"}
+		],
+		"generos":["Action", "Comedy", "School", "Shoujo Ai"]
 	},{
-		"nombreOriginal":"god eater",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"God Eater",
+		"nombreAlternativo":"God Eater",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":13,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/27631/God_Eater"}
+		],
+		"generos":["Action", "Fantasy", "Military", "Sci-Fi"]
 	},{
-		"nombreOriginal":"charlotte",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Charlotte",
+		"nombreAlternativo":"Charlotte",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":13,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/28999/Charlotte"},
+			{"nombre":"Tsuyoimono-tachi","capitulos":1,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/31553/Charlotte__Tsuyoimono-tachi"}
+		],
+		"generos":["Drama", "School", "Super Power"]
 	},{
-		"nombreOriginal":"Hatsugi no chaika",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece 
-		
+		"nombreOriginal":"Hitsugi no Chaika",
+		"nombreAlternativo":"Chaika -The Coffin Princess-",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/20853/Hitsugi_no_Chaika"},
+			{"nombre":"Avenging Battle","capitulos":10,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/24231/Hitsugi_no_Chaika__Avenging_Battle"}
+		],
+		"generos":["Action", "Adventure", "Comedy", "Romance", "Fantasy"]
 	},{
-		"nombreOriginal":"Hai to gensou no grimgar",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Hai to Gensou no Grimgar",
+		"nombreAlternativo":"Grimgar: Ashes and Illusions",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/31859/Hai_to_Gensou_no_Grimgar"}
+		],
+		"generos":[ "Action", "Adventure", "Drama", "Fantasy"]
 	},{
-		"nombreOriginal":"Luck and logic",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Luck & Logic",
+		"nombreAlternativo":"Luck & Logic",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/32083/Luck___Logic"}
+		],
+		"generos":["Action", "Fantasy"]
 	},{
-		"nombreOriginal":"blue exorcist",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			termine el 7
-		
+		"nombreOriginal":"Ao no Exorcist",
+		"nombreAlternativo":"Blue Exorcist",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":25,"capitulosVistos":7,"duracion":24,"url":"https://myanimelist.net/anime/9919/Ao_no_Exorcist"},
+			{"nombre":"pelicula","capitulos":1,"capitulosVistos":0,"duracion":88,"url":"https://myanimelist.net/anime/11737/Ao_no_Exorcist_Movie"},
+			{"nombre":"Kyoto Fujouou-hen","capitulos":12,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/33506/Ao_no_Exorcist__Kyoto_Fujouou-hen"}
+		],
+		"generos":["Action", "Demons", "Fantasy", "Shounen", "Supernatural"]
 	},{
 		"nombreOriginal":"Jigoku Sensei Nube",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreAlternativo":"Jigoku Sensei Nube",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":49,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/2012/Jigoku_Sensei_Nube"},
+			{"nombre":"ova","capitulos":3,"capitulosVistos":0,"duracion":30,"url":"https://myanimelist.net/anime/2745/Jigoku_Sensei_Nube_OVA"}
+		],
+		"generos":["Adventure", "Comedy", "Horror", "Romance", "School", "Shounen", "Supernatural"]
 	},{
-		"nombreOriginal":"K-project",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Kaze no Stigma",
+		"nombreAlternativo":"Stigma of the wind",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":24,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/1691/Kaze_no_Stigma"}
+		],
+		"generos":["Action", "Supernatural", "Magic", "Romance"]
 	},{
-		"nombreOriginal":"stigma of the wind",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"k",
+		"nombreAlternativo":"K",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":13,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/14467/K"},
+			{"nombre":"Missing Kings","capitulos":1,"capitulosVistos":0,"duracion":73,"url":"https://myanimelist.net/anime/16904/K__Missing_Kings"},
+			{"nombre":"Return of Kings","capitulos":13,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/27991/K__Return_of_Kings"}
+		],
+		"generos":["Action", "Mystery", "Super Power", "Supernatural"]
 	},{
-		"nombreOriginal":"k:return of kings",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Bungou Stray Dogs",
+		"nombreAlternativo":"Bungou Stray Dogs",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/31478/Bungou_Stray_Dogs"},
+			{"nombre":"temporada 2","capitulos":12,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/32867/Bungou_Stray_Dogs_2nd_Season"},
+			{"nombre":"temporada 3","capitulos":12,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/38003/Bungou_Stray_Dogs_3rd_Season"},
+			{"nombre":"Hitori Ayumu","capitulos":1,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/33071/Bungou_Stray_Dogs__Hitori_Ayumu"}
+		],
+		"generos":["Action", "Comedy", "Mystery", "Seinen", "Super Power", "Supernatural"]
 	},{
-		"nombreOriginal":"bungou stray dogs",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Sousei no Onmyouji",
+		"nombreAlternativo":"Twin Star Exorcists",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":50,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/32105/Sousei_no_Onmyouji"}
+		],
+		"generos":["Action", "Supernatural", "Romance", "Fantasy", "Shounen"]
 	},{
-		"nombreOriginal":"sousei no onmyouji",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Endride",
+		"nombreAlternativo":"Endride",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":24,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/32608/Endride"}
+		],
+		"generos":["Adventure", "Fantasy"]
 	},{
-		"nombreOriginal":"endride",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Kiznaiver",
+		"nombreAlternativo":"Kiznaiver",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":12,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/31798/Kiznaiver"}
+		],
+		"generos":["Sci-Fi", "Drama", "Romance"]		
 	},{
-		"nombreOriginal":"kiznaiver",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
-	},{
-		"nombreOriginal":"seisen-cerberus-ryuukoku-no-fatalite",
-		"nombreAlternativo":"",
-		"temporadas":[],
-		"generos":[]
-			no empece
-		
+		"nombreOriginal":"Seisen Cerberus: Ryuukoku no Fatalités",
+		"nombreAlternativo":"Cerberus",
+		"temporadas":[
+			{"nombre":"temporada 1","capitulos":13,"capitulosVistos":0,"duracion":24,"url":"https://myanimelist.net/anime/32595/Seisen_Cerberus__Ryuukoku_no_Fatalit%C3%A9s"}
+		],
+		"generos":["Adventure", "Fantasy"]
 	},{
 		"nombreOriginal":"Date A Live",
 		"nombreAlternativo":"Date A Live",

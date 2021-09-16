@@ -4,7 +4,7 @@
 		"nombreAlternativo":"Psycho-Pass",
 		"temporadas":[
 			{"nombre":"temporada 1","capitulos": 22,"capitulosVistos": 22,"duracion":23, "url":"https://myanimelist.net/anime/13601/Psycho-Pass"},
-			{"nombre":"temporada 2","capitulos":11,"vistos":0,"duracion":23,"url":"https://myanimelist.net/anime/23281/Psycho-Pass_2"},
+			{"nombre":"temporada 2","capitulos":11,"capitulosVistos":0,"duracion":23,"url":"https://myanimelist.net/anime/23281/Psycho-Pass_2"},
 			{"nombre":"movie","capitulos":1,"capitulosVistos":0,"duracion":113,"url":"https://myanimelist.net/anime/21339/Psycho-Pass_Movie"},
 			{"nombre":"temporada 3","capitulos":8,"capitulosVistos":0,"duracion":45,"url":"https://myanimelist.net/anime/39491/Psycho-Pass_3"},
 			{"nombre":"temporada 3: First Inspector","capitulos":3,"capitulosVistos":0,"duracion":46,"url":"https://myanimelist.net/anime/40858/Psycho-Pass_3__First_Inspector"}

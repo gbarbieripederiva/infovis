@@ -4,6 +4,7 @@ function appendGraph(fullData,div,graphParams) {
     }
     const GraphParams = {
         bar:{
+            offsetX:10,
             height:6,
             maxWidth:100
         },
@@ -12,13 +13,18 @@ function appendGraph(fullData,div,graphParams) {
             width:100
         },
         viewbox:{
-            width:100,
-            height:70
+            width:120,
+            height:80
         },
         text:{
-            offsetX:1,
+            offsetX:11,
             offsetY:10/2-1,
             fontSize:3
+        },
+        axis:{
+            width:100,
+            offsetX:10,
+            offsetY:70
         },
         ...graphParams
     };
@@ -72,6 +78,7 @@ function appendGraph(fullData,div,graphParams) {
                         .style("padding", "10px");
 
     let svg = div.append("svg").attr("viewBox", [0, 0, GraphParams.viewbox.width, GraphParams.viewbox.height]);
+
     let rectGroups = svg
         .selectAll("rect")
         .data(genreDataForD3)
@@ -82,6 +89,7 @@ function appendGraph(fullData,div,graphParams) {
         .attr("width",function(d) {
             return (d.vistos / maxValuesGenreData.totales) * GraphParams.bar.maxWidth
         })
+        .attr("x",GraphParams.bar.offsetX)
         .attr("y",function(d,i) {
             return i*GraphParams.group.height
         })
@@ -96,7 +104,7 @@ function appendGraph(fullData,div,graphParams) {
             return ((d.totales - d.vistos) / maxValuesGenreData.totales) * GraphParams.bar.maxWidth
         })
         .attr("x",function(d,i) {
-            return (d.vistos / maxValuesGenreData.totales) * GraphParams.bar.maxWidth
+            return (d.vistos / maxValuesGenreData.totales) * GraphParams.bar.maxWidth + GraphParams.bar.offsetX;
         })
         .attr("y",function(d,i) {
             return i*GraphParams.group.height
@@ -118,6 +126,31 @@ function appendGraph(fullData,div,graphParams) {
         })
         .attr("font-size",GraphParams.text.fontSize)
         .style("pointer-events","none")
+
+    // Axis
+    let axisGen = d3.axisBottom().scale(
+        d3.scaleLinear()
+            .domain([0, maxValuesGenreData.totales / 60 ])
+            .range([0, GraphParams.axis.width])
+            .nice()
+    )
+        .tickSize(2)
+    
+    let axis = svg.append("g")
+        .attr("transform",
+        `translate(${GraphParams.axis.offsetX},${GraphParams.axis.offsetY})`
+        )
+        .call(axisGen)
+    
+    axis.selectAll("text")
+        .attr("font-size",GraphParams.text.fontSize)
+    
+    axis.select("path")
+        .attr("stroke-width",.5)
+    
+    axis.selectAll("line")
+        .attr("stroke-width",.5)
+    
 }
 
 export default {

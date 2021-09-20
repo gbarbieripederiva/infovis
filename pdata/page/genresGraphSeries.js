@@ -1,4 +1,28 @@
-function appendGraph(fullData,div) {
+function appendGraph(fullData,div,graphParams) {
+    if(typeof graphParams !== 'object'){
+        graphParams = {}
+    }
+    const GraphParams = {
+        bar:{
+            height:9.5,
+            maxWidth:100
+        },
+        group:{
+            height:10,
+            width:100
+        },
+        viewbox:{
+            width:100,
+            height:100
+        },
+        text:{
+            offsetX:1,
+            offsetY:10/2,
+            fontSize:3
+        },
+        ...graphParams
+    };
+
     let genresData = {
         totales:{},
         vistos:{}
@@ -52,45 +76,53 @@ function appendGraph(fullData,div) {
                         .style("border-radius", "5px")
                         .style("padding", "10px");
 
+    let svg = div.append("svg").attr("viewBox", [0, 0, GraphParams.viewbox.width, GraphParams.viewbox.height]);
+    let rectGroups = svg
+        .selectAll("rect")
+        .data(genreDataForD3)
+        .enter()
+        .append("g")
+    // Visto
+    rectGroups.append("rect")
+        .attr("width",function(d) {
+            return (d.vistos / maxValuesGenreData.totales) * GraphParams.bar.maxWidth
+        })
+        .attr("y",function(d,i) {
+            return i*GraphParams.group.height
+        })
+        .attr("fill","red")
+        .attr("height",GraphParams.bar.height)
+        .on("mouseover", function(event,d,i){return tooltip.text(`Vistos: ${d.vistos} series`).style("visibility", "visible");})
+        .on("mousemove", function(event){return tooltip.style("top", (event.clientY)+"px").style("left",(event.clientX)+"px");})
+        .on("mouseout", function(event){return tooltip.style("visibility", "hidden");});
+    // Por ver
+    rectGroups.append("rect")
+        .attr("width",function(d) {
+            return ((d.totales - d.vistos) / maxValuesGenreData.totales) * GraphParams.bar.maxWidth
+        })
+        .attr("x",function(d,i) {
+            return (d.vistos / maxValuesGenreData.totales) * GraphParams.bar.maxWidth
+        })
+        .attr("y",function(d,i) {
+            return i*GraphParams.group.height
+        })
+        .attr("fill","gray")
+        .attr("height",GraphParams.bar.height)
+        .on("mouseover", function(event,d,i){return tooltip.text(`Por ver: ${d.totales - d.vistos} series`).style("visibility", "visible");})
+        .on("mousemove", function(event){return tooltip.style("top", (event.clientY)+"px").style("left",(event.clientX)+"px");})
+        .on("mouseout", function(event){return tooltip.style("visibility", "hidden");});
 
-
-    let divs =      div
-                    .selectAll("div")
-                    .data(genreDataForD3)
-                    .enter()
-                    .append("div")
-    
-    divs            .style("position","relative")
-                    .style("height","3em")
-                    .style("display","flex")
-                    .style("margin-bottom",".1em")
-
-    divs            .append("p")
-                    .text(function(d) {
-                        return d.name
-                    })
-                    .style("position","absolute")
-                    .style("top","0")
-                    .style("left","1em")
-
-    divs            .append("div")
-                    .style("width",function(d) {
-                        return (d.vistos / maxValuesGenreData.totales) * 100+ "%"
-                    })
-                    .style("background-color","red")
-                    .on("mouseover", function(event,d,i){return tooltip.text(`Vistos: ${d.vistos} series`).style("visibility", "visible");})
-                    .on("mousemove", function(event){return tooltip.style("top", (event.clientY)+"px").style("left",(event.clientX)+"px");})
-                    .on("mouseout", function(event){return tooltip.style("visibility", "hidden");});
-
-    divs            .append("div")
-                    .style("width",function(d) {
-                        return ((d.totales - d.vistos) / maxValuesGenreData.totales) * 100+ "%"
-                    })
-                    .style("background-color","grey")
-                    .on("mouseover", function(event,d,i){return tooltip.text(`Por ver: ${d.totales - d.vistos} series`).style("visibility", "visible");})
-                    .on("mousemove", function(event){return tooltip.style("top", (event.clientY)+"px").style("left",(event.clientX)+"px");})
-                    .on("mouseout", function(event){return tooltip.style("visibility", "hidden");});
-
+    // Texto
+    rectGroups.append("text")
+        .text(function(d) {
+            return d.name
+        })
+        .attr("x",GraphParams.text.offsetX)
+        .attr("y",function(d,i) {
+            return i*GraphParams.group.height + GraphParams.text.offsetY
+        })
+        .attr("font-size",GraphParams.text.fontSize)
+        .style("pointer-events","none")
 }
 
 export default {

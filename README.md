@@ -4,3 +4,4 @@
 * [Hello World](https://gbarbieripederiva.github.io/infovis/index.html)
 * [Zoo](https://gbarbieripederiva.github.io/infovis/zoo.txt)
 * [Idea TP Datos personales](https://github.com/gbarbieripederiva/infovis/blob/gh-pages/pdata/README.md)
+* [Página TP Datos personales](https://gbarbieripederiva.github.io/infovis/pdata/page/index.html)

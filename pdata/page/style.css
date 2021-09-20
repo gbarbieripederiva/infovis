@@ -2,7 +2,16 @@ body,html{
     margin: 0;
     padding: 0;
 }
-
-.red-bar{
-    background-color: red;
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer{
+    height: 3em;
+}
+.graph{
+    width: 75%;
 }

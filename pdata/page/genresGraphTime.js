@@ -4,20 +4,20 @@ function appendGraph(fullData,div,graphParams) {
     }
     const GraphParams = {
         bar:{
-            height:9.5,
+            height:6,
             maxWidth:100
         },
         group:{
-            height:10,
+            height:7,
             width:100
         },
         viewbox:{
             width:100,
-            height:100
+            height:70
         },
         text:{
             offsetX:1,
-            offsetY:10/2,
+            offsetY:10/2-1,
             fontSize:3
         },
         ...graphParams

@@ -6,16 +6,16 @@ function appendGraph(fullData,div,graphParams) {
     }
     const GraphParams = {
         bar:{
-            height:9,
+            height:6,
             maxWidth:100
         },
         viewbox:{
             width:100,
-            height:10
+            height:6
         },
         text:{
-            offsetX:0,
-            offsetY:10/2,
+            offsetX:1,
+            offsetY:10/2-1,
             fontSize:3
         },
         ...graphParams

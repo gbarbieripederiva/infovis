@@ -6,7 +6,9 @@ function appendGraph(fullData,div,graphParams) {
         bar:{
             offsetX:10,
             height:6,
-            maxWidth:100
+            maxWidth:100,
+            seenColor:"rgb(235, 96, 96)",
+            notSeenColor:"rgb(171, 171, 171)"
         },
         group:{
             height:7,
@@ -103,7 +105,7 @@ function appendGraph(fullData,div,graphParams) {
         .attr("y",function(d,i) {
             return i*GraphParams.group.height
         })
-        .attr("fill","red")
+        .attr("fill",GraphParams.bar.seenColor)
         .attr("height",GraphParams.bar.height)
         .on("mouseover", function(event,d,i){return tooltip.text(`Vistos: ${d.vistos} series`).style("visibility", "visible");})
         .on("mousemove", function(event){return tooltip.style("top", (event.clientY)+"px").style("left",(event.clientX)+"px");})
@@ -119,7 +121,7 @@ function appendGraph(fullData,div,graphParams) {
         .attr("y",function(d,i) {
             return i*GraphParams.group.height
         })
-        .attr("fill","gray")
+        .attr("fill",GraphParams.bar.notSeenColor)
         .attr("height",GraphParams.bar.height)
         .on("mouseover", function(event,d,i){return tooltip.text(`Por ver: ${d.totales - d.vistos} series`).style("visibility", "visible");})
         .on("mousemove", function(event){return tooltip.style("top", (event.clientY)+"px").style("left",(event.clientX)+"px");})

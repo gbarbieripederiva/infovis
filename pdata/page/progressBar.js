@@ -7,7 +7,9 @@ function appendGraph(fullData,div,graphParams) {
     const GraphParams = {
         bar:{
             height:6,
-            maxWidth:100
+            maxWidth:100,
+            seenColor:"rgb(235, 96, 96)",
+            notSeenColor:"rgb(171, 171, 171)"
         },
         viewbox:{
             width:100,
@@ -42,7 +44,7 @@ function appendGraph(fullData,div,graphParams) {
         .attr("x",0)
         .attr("y",0)
         .attr("width",percentageSeen * GraphParams.bar.maxWidth)
-        .attr("fill","red")
+        .attr("fill",GraphParams.bar.seenColor)
         .attr("height",GraphParams.bar.height)
     ;
     svg.append("text")
@@ -58,7 +60,7 @@ function appendGraph(fullData,div,graphParams) {
         .attr("x",percentageSeen * GraphParams.bar.maxWidth)
         .attr("y",0)
         .attr("width",percentageNotSeen * GraphParams.bar.maxWidth)
-        .attr("fill","gray")
+        .attr("fill",GraphParams.bar.notSeenColor)
         .attr("height",GraphParams.bar.height)
     ;
     svg.append("text")

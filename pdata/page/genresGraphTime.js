@@ -105,7 +105,7 @@ function appendGraph(fullData,div,graphParams) {
         })
         .attr("fill",GraphParams.bar.seenColor)
         .attr("height",GraphParams.bar.height)
-        .on("mouseover", function(event,d,i){return tooltip.text(`Vistos: ${Utils.mTohm(d.vistos)} m`).style("visibility", "visible");})
+        .on("mouseover", function(event,d,i){return tooltip.text(`Vistos: ${Utils.mTohm(d.vistos)}`).style("visibility", "visible");})
         .on("mousemove", function(event){return tooltip.style("top", (event.clientY)+"px").style("left",(event.clientX)+"px");})
         .on("mouseout", function(event){return tooltip.style("visibility", "hidden");});
     // Por ver
@@ -121,7 +121,7 @@ function appendGraph(fullData,div,graphParams) {
         })
         .attr("fill",GraphParams.bar.notSeenColor)
         .attr("height",GraphParams.bar.height)
-        .on("mouseover", function(event,d,i){return tooltip.text(`Por ver: ${Utils.mTohm(d.totales - d.vistos)} m`).style("visibility", "visible");})
+        .on("mouseover", function(event,d,i){return tooltip.text(`Por ver: ${Utils.mTohm(d.totales - d.vistos)}`).style("visibility", "visible");})
         .on("mousemove", function(event){return tooltip.style("top", (event.clientY)+"px").style("left",(event.clientX)+"px");})
         .on("mouseout", function(event){return tooltip.style("visibility", "hidden");});;
 

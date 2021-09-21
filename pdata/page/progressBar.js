@@ -1,4 +1,4 @@
-import { applyMultipleStyles } from "./utils.js"
+import Utils from "./utils.js"
 
 function appendGraph(fullData,div,graphParams) {
     if(typeof graphParams !== 'object'){
@@ -39,6 +39,17 @@ function appendGraph(fullData,div,graphParams) {
 
     let svg = div.append("svg").attr("viewBox", [0, 0, GraphParams.viewbox.width, GraphParams.viewbox.height]);
 
+    let tooltip = d3   .select("body")
+                        .append("div")
+                        .style("position", "fixed")
+                        .style("visibility", "hidden")
+                        .style("background-color", "white")
+                        .style("border", "solid")
+                        .style("border-width", "1px")
+                        .style("border-radius", "5px")
+                        .style("padding", "10px");
+
+
     // Progress
     svg.append("rect")
         .attr("x",0)
@@ -46,6 +57,9 @@ function appendGraph(fullData,div,graphParams) {
         .attr("width",percentageSeen * GraphParams.bar.maxWidth)
         .attr("fill",GraphParams.bar.seenColor)
         .attr("height",GraphParams.bar.height)
+        .on("mouseover", function(event,d,i){return tooltip.text(`Vistos: ${Utils.mTohm(graphData.vistos)}`).style("visibility", "visible");})
+        .on("mousemove", function(event){return tooltip.style("top", (event.clientY)+"px").style("left",(event.clientX)+"px");})
+        .on("mouseout", function(event){return tooltip.style("visibility", "hidden");});
     ;
     svg.append("text")
         .text((percentageSeen*100).toFixed(1) + "%")
@@ -62,6 +76,9 @@ function appendGraph(fullData,div,graphParams) {
         .attr("width",percentageNotSeen * GraphParams.bar.maxWidth)
         .attr("fill",GraphParams.bar.notSeenColor)
         .attr("height",GraphParams.bar.height)
+        .on("mouseover", function(event,d,i){return tooltip.text(`Por ver: ${Utils.mTohm(graphData.total - graphData.vistos)}`).style("visibility", "visible");})
+        .on("mousemove", function(event){return tooltip.style("top", (event.clientY)+"px").style("left",(event.clientX)+"px");})
+        .on("mouseout", function(event){return tooltip.style("visibility", "hidden");});
     ;
     svg.append("text")
         .text((percentageNotSeen*100).toFixed(1) + "%")
@@ -69,6 +86,7 @@ function appendGraph(fullData,div,graphParams) {
         .attr("y",GraphParams.text.offsetY)
         .attr("font-size",GraphParams.text.fontSize)
         .attr("text-anchor","middle")
+        
     ;
 }
 

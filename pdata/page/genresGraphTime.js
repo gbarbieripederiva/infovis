@@ -1,3 +1,5 @@
+import Utils from "./utils.js";
+
 function appendGraph(fullData,div,graphParams) {
     if(typeof graphParams !== 'object'){
         graphParams = {}
@@ -14,7 +16,7 @@ function appendGraph(fullData,div,graphParams) {
         },
         viewbox:{
             width:120,
-            height:80
+            height:90
         },
         text:{
             offsetX:11,
@@ -24,7 +26,13 @@ function appendGraph(fullData,div,graphParams) {
         axis:{
             width:100,
             offsetX:10,
-            offsetY:70
+            offsetY:70,
+            label:{
+                offsetX:50,
+                offsetY:12,
+                fontSize:3,
+                hide:false
+            }
         },
         ...graphParams
     };
@@ -95,7 +103,7 @@ function appendGraph(fullData,div,graphParams) {
         })
         .attr("fill","red")
         .attr("height",GraphParams.bar.height)
-        .on("mouseover", function(event,d,i){return tooltip.text(`Vistos: ${d.vistos} m`).style("visibility", "visible");})
+        .on("mouseover", function(event,d,i){return tooltip.text(`Vistos: ${Utils.mTohm(d.vistos)} m`).style("visibility", "visible");})
         .on("mousemove", function(event){return tooltip.style("top", (event.clientY)+"px").style("left",(event.clientX)+"px");})
         .on("mouseout", function(event){return tooltip.style("visibility", "hidden");});
     // Por ver
@@ -111,7 +119,7 @@ function appendGraph(fullData,div,graphParams) {
         })
         .attr("fill","gray")
         .attr("height",GraphParams.bar.height)
-        .on("mouseover", function(event,d,i){return tooltip.text(`Por ver: ${d.totales - d.vistos} m`).style("visibility", "visible");})
+        .on("mouseover", function(event,d,i){return tooltip.text(`Por ver: ${Utils.mTohm(d.totales - d.vistos)} m`).style("visibility", "visible");})
         .on("mousemove", function(event){return tooltip.style("top", (event.clientY)+"px").style("left",(event.clientX)+"px");})
         .on("mouseout", function(event){return tooltip.style("visibility", "hidden");});;
 
@@ -150,6 +158,16 @@ function appendGraph(fullData,div,graphParams) {
     
     axis.selectAll("line")
         .attr("stroke-width",.5)
+    
+    if (!GraphParams.axis.label.hide) {
+        axis.append("text")
+            .attr("x",GraphParams.axis.label.offsetX )
+            .attr("y",GraphParams.axis.label.offsetY )
+            .attr("opacity",1)
+            .attr("fill","black")
+            .attr("font-size",GraphParams.axis.label.fontSize)
+            .text("horas")
+    }
     
 }
 

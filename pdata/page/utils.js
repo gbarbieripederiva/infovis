@@ -4,3 +4,12 @@ export function applyMultipleStyles(selection, styles) {
     }
     return selection;
 }
+
+export function mTohm(minutes) {
+    return `${Math.floor(minutes/60)}hs ${minutes % 60}`;
+}
+
+export default {
+    applyMultipleStyles,
+    mTohm
+}

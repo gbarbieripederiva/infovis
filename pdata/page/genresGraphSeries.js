@@ -14,7 +14,7 @@ function appendGraph(fullData,div,graphParams) {
         },
         viewbox:{
             width:120,
-            height:80
+            height:90
         },
         text:{
             offsetX:11,
@@ -24,7 +24,13 @@ function appendGraph(fullData,div,graphParams) {
         axis:{
             width:100,
             offsetX:10,
-            offsetY:70
+            offsetY:70,
+            label:{
+                offsetX:50,
+                offsetY:12,
+                fontSize:3,
+                hide:false
+            }
         },
         ...graphParams
     };
@@ -155,6 +161,16 @@ function appendGraph(fullData,div,graphParams) {
     axis.selectAll("line")
         .attr("stroke-width",.5)
 
+    if (!GraphParams.axis.label.hide) {
+        axis.append("text")
+            .attr("x",GraphParams.axis.label.offsetX )
+            .attr("y",GraphParams.axis.label.offsetY )
+            .attr("opacity",1)
+            .attr("fill","black")
+            .attr("font-size",GraphParams.axis.label.fontSize)
+            .text("series")
+    }
+    
 }
 
 export default {

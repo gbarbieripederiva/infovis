@@ -13,7 +13,7 @@ main{
 footer{
     height: 3em;
 }
-.progressChartsDiv{
+.progressChartsSection{
     width: 90%;
     display: flex;
     justify-content: space-between;
@@ -28,6 +28,15 @@ footer{
 }
 .progressChartDiv>.graph{
     width: 100%;
+}
+.progressBarSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.progressBarSection > h1{
+    font-size: 2rem;
 }
 #progressBar{
     width:50%

@@ -170,7 +170,7 @@ function appendGraph(fullData,div,graphParams) {
             .attr("opacity",1)
             .attr("fill","black")
             .attr("font-size",GraphParams.axis.label.fontSize)
-            .text("series")
+            .text("Series")
     }
     
 }

@@ -11,6 +11,42 @@
 </head>
 <body>
     <main>
+        <section class="presentationSection">
+            <div class="presentationDiv">
+                <h1>Trabajo práctico: Datos personales</h1>
+                <h2>Idea</h2>
+                <p>
+                    Partiendo de una lista de animes que tengo en la cual anoto, tanto animes que me llamaron la atención, como animes que estoy viendo o ya vi, analizar ciertos datos de la misma.
+                </p>
+                <h2>Datos</h2>
+                <h3>Doc</h3>
+                <p>
+                    El documento en cuestión es de la siguiente manera:  
+                </p>
+                <img alt="Doc con animes" src="assets/googleDoc.png">
+                <p>
+                    Este es un documento en el que desde 2013 llevó cuenta de todos los animes que vi o que me interesaron de alguna forma.
+                </p> 
+                <p>
+                    El mismo lo pasé a JSON para poder trabajarlo más fácilmente. Tambien agregué datos referidos al género del anime y duración de sus capítulos, información que extraje de <a href="https://myanimelist.net/">My anime list (MAL)</a>
+                </p>
+                <h3>JSON</h3>
+                <p>
+                    El JSON quedó como una lista con entradas de esta forma:
+                </p>
+                <img alt="JSON entrada Jujustu kaisen" src="assets/dataJSON.png ">
+                <p>
+                    y contiene 132 entradas.
+                </p>
+                <h2>Visualizaciones hechas</h2>
+                <p>Utilizando el JSON previamente dicho y la libreria <a href="https://d3js.org/">D3.js</a> hice las siguientes visualizaciones:</p>
+                <ul>
+                    <li>Generos ordenados por horas/series que vi y cuantas horas "me falta ver"</li>
+                    <li>Cuántas horas de anime vi VS. Cuantas horas totales hay en mi lista</li>
+                    <li>Cuántas horas de anime vi y cuantas me faltan comparadas con otras cosas que me hubiesen tomado el mismo tiempo( viajes a mar del plata, porcentaje de ingenieria informatica que hubiese completado, etc.)</li>
+                </ul>
+            </div>
+        </section>
         <section class="progressChartsSection">
             <h1>Visto vs. Total por genero</h2>
             <div class="progressChartsDiv">

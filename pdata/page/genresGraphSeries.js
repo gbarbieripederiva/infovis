@@ -107,7 +107,7 @@ function appendGraph(fullData,div,graphParams) {
         })
         .attr("fill",GraphParams.bar.seenColor)
         .attr("height",GraphParams.bar.height)
-        .on("mouseover", function(event,d,i){return tooltip.text(`Vistos: ${d.vistos} series`).style("visibility", "visible");})
+        .on("mouseover", function(event,d,i){return tooltip.text(`Vistas: ${d.vistos} series`).style("visibility", "visible");})
         .on("mousemove", function(event){return tooltip.style("top", (event.clientY)+"px").style("left",(event.clientX)+"px");})
         .on("mouseout", function(event){return tooltip.style("visibility", "hidden");});
     // Por ver

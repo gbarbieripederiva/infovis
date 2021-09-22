@@ -97,7 +97,6 @@ function appendGraph(fullData,div,graphParams) {
             }
         }
     }
-    console.log(genresData);
     let genreDataForD3 = []
     let maxValuesGenreData = {
         vistos:0,

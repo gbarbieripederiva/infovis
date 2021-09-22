@@ -82,13 +82,7 @@ function appendGraph(fullData,div,graphParams) {
 
     let tooltip = d3   .select("body")
                         .append("div")
-                        .style("position", "fixed")
-                        .style("visibility", "hidden")
-                        .style("background-color", "white")
-                        .style("border", "solid")
-                        .style("border-width", "1px")
-                        .style("border-radius", "5px")
-                        .style("padding", "10px");
+                        .classed("tooltip",true);
 
     let svg = div.append("svg").attr("viewBox", [0, 0, GraphParams.viewbox.width, GraphParams.viewbox.height]);
     let rectGroups = svg

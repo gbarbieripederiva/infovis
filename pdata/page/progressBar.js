@@ -41,15 +41,8 @@ function appendGraph(fullData,div,graphParams) {
 
     let tooltip = d3   .select("body")
                         .append("div")
-                        .style("position", "fixed")
-                        .style("visibility", "hidden")
-                        .style("background-color", "white")
-                        .style("border", "solid")
-                        .style("border-width", "1px")
-                        .style("border-radius", "5px")
-                        .style("padding", "10px");
-
-
+                        .classed("tooltip",true);
+                        
     // Progress
     svg.append("rect")
         .attr("x",0)

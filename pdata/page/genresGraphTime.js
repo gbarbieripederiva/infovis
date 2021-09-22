@@ -42,9 +42,17 @@ function appendGraph(fullData,div,graphParams) {
 
     let genresData = {
         totales:{},
-        vistos:{}
+        vistos:{},
+        maxVisto:{
+        },
+        maxTotal:{
+        },
+        maxPorVer:{
+        }
     }
     for (const series of fullData) {
+        let duracionVisto = {};
+        let duracionTotal = {};
         for (const season of series.temporadas) {
             for (const genre of series.generos) {
                 if (typeof genresData.totales[genre] == 'undefined') {
@@ -53,11 +61,43 @@ function appendGraph(fullData,div,graphParams) {
                 if (typeof genresData.vistos[genre] == 'undefined') {
                     genresData.vistos[genre] = 0
                 }
+                if (typeof duracionTotal[genre] == 'undefined') {
+                    duracionTotal[genre] = 0
+                }
+                if (typeof duracionVisto[genre] == 'undefined') {
+                    duracionVisto[genre] = 0
+                }
                 genresData.totales[genre] += season.capitulos * season.duracion
                 genresData.vistos[genre] += season.capitulosVistos * season.duracion
+                duracionTotal[genre] += season.capitulos * season.duracion
+                duracionVisto[genre] += season.capitulosVistos * season.duracion
+            }
+        }
+        for (const genre of series.generos) {
+            if(typeof genresData.maxTotal[genre] !== 'object'){
+                genresData.maxTotal[genre] = {serie:{},duracion:0}
+            }
+            if(typeof genresData.maxVisto[genre] !== 'object'){
+                genresData.maxVisto[genre] = {serie:{},duracion:0}
+            }
+            if(typeof genresData.maxPorVer[genre] !== 'object'){
+                genresData.maxPorVer[genre] = {serie:{},duracion:0}
+            }
+            if (genresData.maxTotal[genre].duracion < duracionTotal[genre]) {
+                genresData.maxTotal[genre].serie = series;
+                genresData.maxTotal[genre].duracion = duracionTotal[genre];
+            }
+            if (genresData.maxVisto[genre].duracion < duracionVisto[genre]) {
+                genresData.maxVisto[genre].serie = series;
+                genresData.maxVisto[genre].duracion = duracionVisto[genre];
+            }
+            if (genresData.maxPorVer[genre].duracion < duracionTotal[genre] - duracionVisto[genre]) {
+                genresData.maxPorVer[genre].serie = series;
+                genresData.maxPorVer[genre].duracion = duracionTotal[genre] - duracionVisto[genre];
             }
         }
     }
+    console.log(genresData);
     let genreDataForD3 = []
     let maxValuesGenreData = {
         vistos:0,

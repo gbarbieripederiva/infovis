@@ -225,7 +225,6 @@ ${Math.floor(total/tiempoPrepBrownie)} \
         .append("object")
         .attr("data",`./assets/${dataVistoBack.cooking.backgroundIcon}`)
         .attr("type","image/svg+xml")
-
 }
 
 

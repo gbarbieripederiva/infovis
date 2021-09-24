@@ -24,25 +24,25 @@ function fillCards(fullData,div) {
     dataVisto.push({
         titulo:"Viajes",
         descripcion:`\
-Se podrian realizar ${Math.floor((visto/viajeAMardelEnm) / 2 )} viajes a Mar del Plata \
-, ida y vuelta, en lo que vi de anime y ${Math.floor(((total-visto)/viajeAMardelEnm) / 2 )} \
+Se podrian realizar <strong>${Math.floor((visto/viajeAMardelEnm) / 2 )}</strong> viajes a <strong>Mar del Plata</strong> \
+, ida y vuelta, en lo que vi de anime y <strong>${Math.floor(((total-visto)/viajeAMardelEnm) / 2 )}</strong> \
 en lo que me falta ver`,
         backgroundIcon:"car.svg"
     })
     dataVisto.push({
         titulo:"Estudios",
         descripcion:`\
-Se podria estudiar el ${((visto/carreraDeInformatica)*100).toFixed(1)}% \
-de una carrera de ingenieria informatica en lo que vi de anime y \
-${(((total-visto)/carreraDeInformatica)*100).toFixed(1)}% en lo que me falta ver
+Se podria estudiar el <strong>${((visto/carreraDeInformatica)*100).toFixed(1)}%</strong> \
+de una carrera de <strong>ingenieria informatica</strong> en lo que vi de anime y el \
+<strong>${(((total-visto)/carreraDeInformatica)*100).toFixed(1)}%</strong> en lo que me falta ver
 `,
         backgroundIcon:"book.svg"
     })
     dataVisto.push({
         titulo:"Peliculas",
         descripcion:`\
-Podria haber visto la saga de Harry Potter ${Math.floor(visto/duracionHarryPotter)} en lo que \
-vi de anime o ${Math.floor(total/duracionHarryPotter)} en lo que me falta ver \
+Podria haber visto la saga de <strong>Harry Potter</strong> <strong>${Math.floor(visto/duracionHarryPotter)}</strong> veces en lo que \
+vi de anime o <strong>${Math.floor(total/duracionHarryPotter)}</strong> en lo que me falta ver \
 `,
         backgroundIcon:"film.svg"
     })
@@ -66,7 +66,7 @@ ${Math.floor(total/tiempoPrepBrownie)} \
                 })
             d3  .select(this)
                 .select("p")
-                .text(function(d) {
+                .html(function(d) {
                     return d.descripcion
                 })
             d3  .select(this)

@@ -176,12 +176,18 @@ ${Math.floor(total/tiempoPrepBrownie)} \
     movieCardFront.append("h1").text("Peliculas");
     movieCardFront.append("div").attr("class","cardVistoDiv");
     movieCardFront.select("div.cardVistoDiv").append(getEye);
+    movieCardFront.select("div.cardVistoDiv").append("img")
+                    .attr("src","assets/hpLogo.svg")
+                    .style("height","2em")
     movieCardFront.select("div.cardVistoDiv").append("p")
-                    .text(`HP x${Math.floor(visto/duracionHarryPotter)}`);
+                    .text(`x${Math.floor(visto/duracionHarryPotter)}`);
     movieCardFront.append("div").attr("class","cardNoVistoDiv");
     movieCardFront.select("div.cardNoVistoDiv").append(getNoEye);
+    movieCardFront.select("div.cardNoVistoDiv").append("img")
+                    .attr("src","assets/hpLogo.svg")
+                    .style("height","2em")
     movieCardFront.select("div.cardNoVistoDiv").append("p")
-                    .text(`HP x${Math.floor((total-visto)/duracionHarryPotter)}`);
+                    .text(`x${Math.floor((total-visto)/duracionHarryPotter)}`);
     
     let movieCardBack = movieCard.select("div.cardInner").append("div").classed("cardBack",true);
     movieCardBack
@@ -204,12 +210,18 @@ ${Math.floor(total/tiempoPrepBrownie)} \
     cookingCardFront.append("h1").text("Cocina")
     cookingCardFront.append("div").attr("class","cardVistoDiv");
     cookingCardFront.select("div.cardVistoDiv").append(getEye);
+    cookingCardFront.select("div.cardVistoDiv").append("img")
+                    .attr("src","assets/cake.svg")
+                    .style("height","2em")
     cookingCardFront.select("div.cardVistoDiv").append("p")
-                    .html(`<img src="assets/cake.svg"/>  x${Math.floor(visto/duracionHarryPotter)}`);
+                    .text(`x${Math.floor(visto/duracionHarryPotter)}`);
     cookingCardFront.append("div").attr("class","cardNoVistoDiv");
     cookingCardFront.select("div.cardNoVistoDiv").append(getNoEye);
+    cookingCardFront.select("div.cardNoVistoDiv").append("img")
+                    .attr("src","assets/cake.svg")
+                    .style("height","2em")
     cookingCardFront.select("div.cardNoVistoDiv").append("p")
-                    .html(`<img src="assets/cake.svg"/> x${Math.floor((total-visto)/duracionHarryPotter)}`);
+                    .text(`x${Math.floor((total-visto)/duracionHarryPotter)}`);
 
     // Back----------------------------------------------------------------------------
     let cookingCardBack = cookingCard.select("div.cardInner").append("div").classed("cardBack",true);

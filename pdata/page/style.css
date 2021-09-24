@@ -15,6 +15,10 @@ main{
 }
 footer{
     height: 3em;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 4em;
 }
 section > h1{
     font-size: 2rem;

@@ -49,3 +49,10 @@ main h1{
 .card svg{
     width: 100%;
 }
+footer{
+    padding-left: 3em;
+    height: 5em;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}

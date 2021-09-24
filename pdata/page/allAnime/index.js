@@ -17,18 +17,16 @@ function appendCard(div, data, i, tooltip) {
                 .attr("y",0)
                 .attr("width",(visto/duracion) * 10)
                 .attr("height",1)
-                .on("mouseover", function(event,d,i){return tooltip.text(`Vistos: ${Utils.mTohm(visto)}`).classed("tooltip-in-bar",true);})
-                .on("mousemove", function(event){return tooltip.style("top", (event.clientY)+"px").style("left",(event.clientX)+"px");})
-                .on("mouseout", function(event){return tooltip.classed("tooltip-in-bar",false);});
     progressSVG .append("rect")
                 .attr("fill","rgb(171, 171, 171)")
                 .attr("x",(visto/duracion) * 10)
                 .attr("y",0)
                 .attr("width",(1 - (visto/duracion)) * 10)
                 .attr("height",1)
-                .on("mouseover", function(event,d,i){return tooltip.text(`Vistos: ${Utils.mTohm(duracion - visto)}`).classed("tooltip-in-bar",true);})
+    progressSVG
+                .on("mouseover", function(event,d,i){return tooltip.text(`Visto: ${Utils.mTohm(visto)} de ${Utils.mTohm(duracion)}`).classed("tooltip-in-bar",true);})
                 .on("mousemove", function(event){return tooltip.style("top", (event.clientY)+"px").style("left",(event.clientX)+"px");})
-                .on("mouseout", function(event){return tooltip.classed("tooltip-in-bar",false);});;
+                .on("mouseout", function(event){return tooltip.classed("tooltip-in-bar",false);});
 }
 
 async function main() {

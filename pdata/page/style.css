@@ -4,7 +4,6 @@ body,html{
     padding: 0;
     background-color: var(--background-color);
     font-family: Arial, Helvetica, sans-serif;
-    scroll-snap-type: y mandatory;
 }
 main{
     width: 100%;
@@ -30,7 +29,6 @@ section{
     align-items: center;
     width: 100%;
     box-sizing: border-box;
-    scroll-snap-align: start;
 }
 .progressChartsSection{
     height: 100vh;
@@ -101,6 +99,12 @@ section{
     font-size: 1.2rem;
 }
 
+.card .cardVistoDiv,.card .cardNoVistoDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
 /* """"README"""" */
 
 .presentationSection{

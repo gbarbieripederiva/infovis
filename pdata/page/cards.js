@@ -1,3 +1,5 @@
+import Utils from "./utils.js";
+
 function fillCards(fullData,div) {
     let dataVisto = [];
     let visto = 0;
@@ -21,59 +23,92 @@ function fillCards(fullData,div) {
         }
     }
 
-    dataVisto.push({
-        titulo:"Viajes",
-        descripcion:`\
-Se podrian realizar ${Math.floor((visto/viajeAMardelEnm) / 2 )} viajes a Mar del Plata \
-, ida y vuelta, en lo que vi de anime y ${Math.floor(((total-visto)/viajeAMardelEnm) / 2 )} \
-en lo que me falta ver`,
-        backgroundIcon:"car.svg"
-    })
-    dataVisto.push({
-        titulo:"Estudios",
-        descripcion:`\
-Se podria estudiar el ${((visto/carreraDeInformatica)*100).toFixed(1)}% \
-de una carrera de ingenieria informatica en lo que vi de anime y \
-${(((total-visto)/carreraDeInformatica)*100).toFixed(1)}% en lo que me falta ver
-`,
-        backgroundIcon:"book.svg"
-    })
-    dataVisto.push({
-        titulo:"Peliculas",
-        descripcion:`\
-Podria haber visto la saga de Harry Potter ${Math.floor(visto/duracionHarryPotter)} en lo que \
-vi de anime o ${Math.floor(total/duracionHarryPotter)} en lo que me falta ver \
-`,
-        backgroundIcon:"film.svg"
-    })
-    dataVisto.push({
-        titulo:"Cocina",
-        descripcion:`\
-Si hubiese usado el tiempo para cocinar, en lo que vi de anime, podria haber preparado \
-${Math.floor(visto/tiempoPrepBrownie)} brownies caseros y en lo que me queda por ver \
-${Math.floor(total/tiempoPrepBrownie)} \
-`,
-        backgroundIcon:"cake.svg"    
-    })
+    function getEye() {
+        let eye = d3.create("span");
+        eye.attr("class","cardVistoSpan").style("display","flex");
+        eye.append("img").attr("src","assets/eye.svg");
+        eye.append("p").text(":")
+        return eye.node();
+    }
+    function getNoEye() {
+        let noEye = d3.create("span");
+        noEye.attr("class","cardVistoSpan").style("display","flex");
+        noEye.append("img").attr("src","assets/noEye.svg");
+        noEye.append("p").text(":")
+        return noEye.node();
+    }
 
-    div .selectAll("div.card")
-        .data(dataVisto)
-        .each(function(d,i,n) {
-            d3  .select(this)
-                .select("h1")
-                .text(function(d) {
-                    return d.titulo
-                })
-            d3  .select(this)
-                .select("p")
-                .text(function(d) {
-                    return d.descripcion
-                })
-            d3  .select(this)
-                .append("object")
-                .attr("data",`./assets/${d.backgroundIcon}`)
-                .attr("type","image/svg+xml")
-        })        
+    let travelCard = div.append("div").classed("card",true);
+    travelCard.append("h1").text("Viajes");
+
+    travelCard.append("div").attr("class","cardVistoDiv");
+    travelCard  .select("div.cardVistoDiv").append(getEye)
+    travelCard  .select("div.cardVistoDiv").append("img")
+                .attr("src","assets/viajeMDQ.svg")
+                .style("height","3em");
+    travelCard  .select("div.cardVistoDiv").append("p")
+                .text("x" + Math.floor(visto/viajeAMardelEnm/2));
+    
+    travelCard  .append("div").attr("class","cardNoVistoDiv")
+    travelCard  .select("div.cardNoVistoDiv").append(getNoEye)
+    travelCard  .select("div.cardNoVistoDiv").append("img")
+                .attr("src","assets/viajeMDQ.svg")
+                .style("height","3em");
+    travelCard  .select("div.cardNoVistoDiv").append("p")
+                .text("x" + Math.floor((total-visto)/viajeAMardelEnm/2))
+
+
+    let studyCard = div.append("div").classed("card",true);
+    studyCard.append("h1").text("Estudios");
+    studyCard.append("p").text("lista vs. ingenieria informatica");
+    studyCard.append("svg").attr("viewBox","0 0 12 3");
+    studyCard   .select("svg").append("rect")
+                .attr("x",0)
+                .attr("y",0)
+                .attr("width",(visto/Math.max(visto,total-visto,carreraDeInformatica))*10)
+                .attr("height",1)
+                .attr("fill","red")
+    studyCard   .select("svg").append("image")
+                .attr("x",(visto/Math.max(visto,total-visto,carreraDeInformatica))*10)
+                .attr("y",0)
+                .attr("width", 1)
+                .attr("height",1)
+                .attr("href","assets/eye.svg")
+                
+    studyCard   .select("svg").append("rect")
+                .attr("x",0)
+                .attr("y",1)
+                .attr("width",((total - visto)/Math.max(visto,total-visto,carreraDeInformatica))*10)
+                .attr("height",1)
+                .attr("fill","grey")
+    studyCard   .select("svg").append("image")
+                .attr("x",((total - visto)/Math.max(visto,total-visto,carreraDeInformatica))*10)
+                .attr("y",1)
+                .attr("width", 1)
+                .attr("height",1)
+                .attr("href","assets/noEye.svg")
+    studyCard   .select("svg").append("rect")
+                .attr("x",0)
+                .attr("y",2)
+                .attr("width",(carreraDeInformatica/Math.max(visto,total-visto,carreraDeInformatica))*10)
+                .attr("height",1);
+    studyCard   .select("svg").append("image")
+                .attr("x",(carreraDeInformatica/Math.max(visto,total-visto,carreraDeInformatica))*10)
+                .attr("y",2)
+                .attr("width", 1)
+                .attr("height",1)
+                .attr("href","assets/informatica.svg")
+                
+    
+    let movieCard = div.append("div").classed("card",true);
+    movieCard.append("h1").text("Peliculas");
+    movieCard.append("div").attr("class","cardVistoDiv");
+    movieCard.select("div.cardVistoDiv").append(getEye);
+    movieCard.append("div").attr("class","cardNoVistoDiv");
+    movieCard.select("div.cardNoVistoDiv").append(getNoEye);
+    
+    let cookingCard = div.append("div").classed("card",true);
+
 }
 
 

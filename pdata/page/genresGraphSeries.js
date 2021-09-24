@@ -82,7 +82,9 @@ function appendGraph(fullData,div,graphParams) {
 
     let tooltip = d3   .select("body")
                         .append("div")
-                        .classed("tooltip",true);
+                        .classed("tooltip",true)
+                        .on("mouseover", function(event,d,i){return tooltip.classed("tooltip-in-tooltip",true);})
+                        .on("mouseout", function(event){return tooltip.classed("tooltip-in-tooltip",false);});
 
     let svg = div.append("svg").attr("viewBox", [0, 0, GraphParams.viewbox.width, GraphParams.viewbox.height]);
     let rectGroups = svg
@@ -101,9 +103,9 @@ function appendGraph(fullData,div,graphParams) {
         })
         .attr("fill",GraphParams.bar.seenColor)
         .attr("height",GraphParams.bar.height)
-        .on("mouseover", function(event,d,i){return tooltip.text(`Vistas: ${d.vistos} series`).style("visibility", "visible");})
+        .on("mouseover", function(event,d,i){return tooltip.text(`Vistas: ${d.vistos} series`).classed("tooltip-in-bar",true);})
         .on("mousemove", function(event){return tooltip.style("top", (event.clientY)+"px").style("left",(event.clientX)+"px");})
-        .on("mouseout", function(event){return tooltip.style("visibility", "hidden");});
+        .on("mouseout", function(event){return tooltip.classed("tooltip-in-bar",false);});
     // Por ver
     rectGroups.append("rect")
         .attr("width",function(d) {
@@ -117,9 +119,9 @@ function appendGraph(fullData,div,graphParams) {
         })
         .attr("fill",GraphParams.bar.notSeenColor)
         .attr("height",GraphParams.bar.height)
-        .on("mouseover", function(event,d,i){return tooltip.text(`Por ver: ${d.totales - d.vistos} series`).style("visibility", "visible");})
+        .on("mouseover", function(event,d,i){return tooltip.text(`Por ver: ${d.totales - d.vistos} series`).classed("tooltip-in-bar",true);})
         .on("mousemove", function(event){return tooltip.style("top", (event.clientY)+"px").style("left",(event.clientX)+"px");})
-        .on("mouseout", function(event){return tooltip.style("visibility", "hidden");});
+        .on("mouseout", function(event){return tooltip.classed("tooltip-in-bar",false);});
 
     // Texto
     rectGroups.append("text")

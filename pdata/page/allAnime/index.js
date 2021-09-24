@@ -25,7 +25,21 @@ function appendCard(div, data, i, tooltip) {
                 .attr("height",1)
     progressSVG
                 .on("mouseover", function(event,d,i){return tooltip.text(`Visto: ${Utils.mTohm(visto)} de ${Utils.mTohm(duracion)}`).classed("tooltip-in-bar",true);})
-                .on("mousemove", function(event){return tooltip.style("top", (event.clientY)+"px").style("left",(event.clientX)+"px");})
+                .on("mousemove", function(event){
+                    if (window.innerHeight > event.clientY + tooltip.node().getBoundingClientRect().height) {
+                        tooltip.style("top", (event.clientY)+"px");
+                    }else{
+                        tooltip.style("top", (event.clientY - tooltip.node().getBoundingClientRect().height)+"px");
+                    }
+
+                    if (window.innerWidth > event.clientX + tooltip.node().getBoundingClientRect().width) {
+                        tooltip.style("left",(event.clientX)+"px");
+                    }else{
+                        tooltip.style("left", (event.clientX - tooltip.node().getBoundingClientRect().width)+"px");
+                    }
+
+                    
+                })
                 .on("mouseout", function(event){return tooltip.classed("tooltip-in-bar",false);});
 }
 

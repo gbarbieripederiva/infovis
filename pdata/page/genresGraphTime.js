@@ -153,7 +153,6 @@ function appendGraph(fullData,div,graphParams) {
             tooltip.select("img").attr("src",genresData.maxVisto[d.name].serie.imageUrl)
         })
         .on("mousemove", function(event){
-            console.log(event.clientY + tooltip.node().getBoundingClientRect().height);
             if (window.innerHeight > event.clientY + tooltip.node().getBoundingClientRect().height) {
                 tooltip.style("top", (event.clientY)+"px").style("left",(event.clientX)+"px");
             }else{
@@ -183,7 +182,6 @@ function appendGraph(fullData,div,graphParams) {
             tooltip.select("img").attr("src",genresData.maxPorVer[d.name].serie.imageUrl)
         })
         .on("mousemove", function(event){
-            console.log(event.clientY + tooltip.node().getBoundingClientRect().height);
             if (window.innerHeight > event.clientY + tooltip.node().getBoundingClientRect().height) {
                 tooltip.style("top", (event.clientY)+"px").style("left",(event.clientX)+"px");
             }else{

@@ -118,7 +118,13 @@ function appendGraph(fullData,div,graphParams) {
 
     let tooltip = d3   .select("body")
                         .append("div")
-                        .classed("tooltip",true);
+                        .classed("tooltip",true)
+                        .on("mouseover", function(event,d,i){return tooltip.classed("tooltip-in-tooltip",true);})
+                        .on("mouseout", function(event){return tooltip.classed("tooltip-in-tooltip",false);});
+
+    tooltip.append("p").attr("id","horasVistas");
+    tooltip.append("p").html("<a></a>").attr("id","mayorAportador")
+    tooltip.append("img");
 
     let svg = div.append("svg").attr("viewBox", [0, 0, GraphParams.viewbox.width, GraphParams.viewbox.height]);
 
@@ -138,9 +144,23 @@ function appendGraph(fullData,div,graphParams) {
         })
         .attr("fill",GraphParams.bar.seenColor)
         .attr("height",GraphParams.bar.height)
-        .on("mouseover", function(event,d,i){return tooltip.text(`Vistas: ${Utils.mTohm(d.vistos)}`).style("visibility", "visible");})
-        .on("mousemove", function(event){return tooltip.style("top", (event.clientY)+"px").style("left",(event.clientX)+"px");})
-        .on("mouseout", function(event){return tooltip.style("visibility", "hidden");});
+        .on("mouseover", function(event,d,i){
+            tooltip.classed("tooltip-in-bar",true);
+            tooltip.select("p#horasVistas").text(`Vistas: ${Utils.mTohm(d.vistos)}`);
+            tooltip .select("p#mayorAportador").html(`Representante:
+                <a target="_blank" href="${genresData.maxVisto[d.name].serie.temporadas[0].url}">${genresData.maxVisto[d.name].serie.nombreOriginal}</a>
+            `)
+            tooltip.select("img").attr("src",genresData.maxVisto[d.name].serie.imageUrl)
+        })
+        .on("mousemove", function(event){
+            console.log(event.clientY + tooltip.node().getBoundingClientRect().height);
+            if (window.innerHeight > event.clientY + tooltip.node().getBoundingClientRect().height) {
+                tooltip.style("top", (event.clientY)+"px").style("left",(event.clientX)+"px");
+            }else{
+                tooltip.style("top", (event.clientY - tooltip.node().getBoundingClientRect().height)+"px").style("left",(event.clientX)+"px");
+            }    
+        })
+        .on("mouseout", function(event){tooltip.classed("tooltip-in-bar",false);});
     // Por ver
     rectGroups.append("rect")
         .attr("width",function(d) {
@@ -154,9 +174,23 @@ function appendGraph(fullData,div,graphParams) {
         })
         .attr("fill",GraphParams.bar.notSeenColor)
         .attr("height",GraphParams.bar.height)
-        .on("mouseover", function(event,d,i){return tooltip.text(`Por ver: ${Utils.mTohm(d.totales - d.vistos)}`).style("visibility", "visible");})
-        .on("mousemove", function(event){return tooltip.style("top", (event.clientY)+"px").style("left",(event.clientX)+"px");})
-        .on("mouseout", function(event){return tooltip.style("visibility", "hidden");});;
+        .on("mouseover", function(event,d,i){
+            tooltip.select("p#horasVistas").text(`Por ver: ${Utils.mTohm(d.totales - d.vistos)}`);
+            tooltip.classed("tooltip-in-bar",true);
+            tooltip .select("p#mayorAportador").html(`Representante:
+                <a target="_blank" href="${genresData.maxPorVer[d.name].serie.temporadas[0].url}">${genresData.maxPorVer[d.name].serie.nombreOriginal}</a>
+            `)
+            tooltip.select("img").attr("src",genresData.maxPorVer[d.name].serie.imageUrl)
+        })
+        .on("mousemove", function(event){
+            console.log(event.clientY + tooltip.node().getBoundingClientRect().height);
+            if (window.innerHeight > event.clientY + tooltip.node().getBoundingClientRect().height) {
+                tooltip.style("top", (event.clientY)+"px").style("left",(event.clientX)+"px");
+            }else{
+                tooltip.style("top", (event.clientY - tooltip.node().getBoundingClientRect().height)+"px").style("left",(event.clientX)+"px");
+            }
+        })
+        .on("mouseout", function(event){tooltip.classed("tooltip-in-bar",false);});;
 
     // Texto
     rectGroups.append("text")

@@ -67,21 +67,46 @@ section{
     flex: 0 0 0;
 }
 .card{
+    background-color: transparent;
+    width: 17em;
+    min-height: 17em;
+    position: relative;
+    perspective: 1000px;
+}
+.cardInner {
+    box-shadow: 3px 7px 20px -2px rgba(80,80,80,0.65);
+    -webkit-box-shadow: 3px 7px 20px -2px rgba(80,80,80,0.65);
+    -moz-box-shadow: 3px 7px 20px -2px rgba(80,80,80,0.65);
+    border: 1px solid rgb(211, 211, 211);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
     border: 1px solid rgb(211, 211, 211);
     box-sizing: border-box;
     border-radius: 1em;
-    width: 17em;
-    min-height: 17em;
+}
+.card:hover .cardInner {
+    transform: rotateY(180deg);
+}
+.cardBack, .cardFront{
+    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 1em;
-    position: relative;
-    box-shadow: 3px 7px 20px -2px rgba(80,80,80,0.65);
-    -webkit-box-shadow: 3px 7px 20px -2px rgba(80,80,80,0.65);
-    -moz-box-shadow: 3px 7px 20px -2px rgba(80,80,80,0.65);
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
 }
-.card>object{
+.cardBack{
+    transform: rotateY(180deg);
+}
+.card object{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -90,7 +115,7 @@ section{
     filter: opacity(10%);
 }
 
-.card *{
+.cardBack *,.cardFront *{
     text-align: justify;
     text-align-last: center;
 }
@@ -99,6 +124,12 @@ section{
     font-size: 1.2rem;
 }
 
+.card .cardVistoDiv,.card .cardNoVistoDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
 /* """"README"""" */
 
 .presentationSection{
